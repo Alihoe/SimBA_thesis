@@ -1,0 +1,124 @@
+\begin{figure}[hbtp!]
+\label{only_lexical_0}
+\begin{quote}
+\textbf{Query:} On day one, I will defend the Affordable Care Act and I will use march in orders to reduce the cost of commonly used prescription drugs like insulin and HIV, AIDS, drugs and EpiPens.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "The president of the United States already has the legal authority to reduce the price of many commonly used prescription drugs." Warren is right. Presidents have the power to address drug pricing without congressional help
+\end{quote}
+Top target predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+Health care reform plans being consided in Congress "will finally reduce the costs of health care." Obama said health care reform will reduce the cost of health care
+\end{quote}
+Top target predicted by \textit{SGPT}:
+\begin{quote}
+\footnotesize
+"The Affordable Care Act is bringing the cost of health care in our country down." Nancy Pelosi says Obamacare is bringing down health care costs
+\end{quote}
+Top target predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+“Donald Trump and Thom Tillis opposed legislation that would lower the price of insulin and other prescription drugs.” Progressive group highlights Trump, Tillis weakness on insulin price tags
+\end{quote}
+Top target predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+Under an executive order, “expensive insulin went from big dollars to virtual pennies … especially (for) our seniors.” Trump inflates insulin help for seniors
+\end{quote}
+\caption{Example of true pair only retrieved by the lexical similarity feature and not by one of the listed sentence embeddings within the top 5 matches.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_lexical_1}
+\begin{quote}
+\textbf{Query:} Furthermore, I am very proud that today I have a D- voting record from the NRA.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top target predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top target predicted by \textit{SGPT}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top target predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top target predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\caption{Example of true pair only retrieved by the lexical similarity feature and not by one of the listed sentence embeddings within the top 5 matches.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_lexical_2}
+\begin{quote}
+\textbf{Query:} It started with withdrawing us from the Iran nuclear deal that his own administration certified was working.
+\end{quote}
+\begin{quote}
+\textbf{Target:} Says Iran has "violated the terms of the (nuclear) deal." Is Iran complying with the nuclear deal? For the most part, yes
+\end{quote}
+Top target predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+President Barack Obama "said at the beginning of the negotiations that the basic approach was to dismantle Iran’s nuclear program in exchange for dismantling the sanctions." Was Obama's goal 'at the beginning of the negotiations' to 'dismantle Iran's nuclear program'?
+\end{quote}
+Top target predicted by \textit{SGPT}:
+\begin{quote}
+\footnotesize
+"We've caught Iran cheating on the interim (nuclear) deal." Stephen Hayes: Iran cheated on the interim nuclear deal
+\end{quote}
+Top target predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+On a timetable to withdraw from Iraq. Obama sticks to his Iraq plan
+\end{quote}
+Top target predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"And delivered more tax relief than the other Republicans combined." Hard to measure, but he's a tax cutter
+\end{quote}
+\caption{Example of true pair only retrieved by the lexical similarity feature and not by one of the listed sentence embeddings within the top 5 matches.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_lexical_3}
+\begin{quote}
+\textbf{Query:} You don’t start out by saying, “I’ve got 160 million people, I’m going to take away the insurance plan that they love.” That’s just not a ways that you go and start building the coalition that the Sanders’ camp thinks that they can do.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "160 million people like their private insurance." Do 160 million Americans really like their health plans? Kind of
+\end{quote}
+Top target predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+Sanders’ “Medicare for All” plan "would cost more than the entire federal budget that we spend now." Does 'Medicare For All' Cost More Than The Entire Budget? Biden Says So. But Numbers Say No.
+\end{quote}
+Top target predicted by \textit{SGPT}:
+\begin{quote}
+\footnotesize
+“They have 180 million people, families under what he wants to do, which will basically be socialized medicine — you won’t even have a choice — they want to terminate 180 million plans.” Did Trump confuse the public option with Medicare for All?
+\end{quote}
+Top target predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"When you throw 23 million people off of health insurance -- people with cancer, people with heart disease, people with diabetes -- thousands of people will die. … This is study after study making this point." Bernie Sanders' projection of 'thousands' of deaths from lost health coverage is well-supported
+\end{quote}
+Top target predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"When you throw 23 million people off of health insurance -- people with cancer, people with heart disease, people with diabetes -- thousands of people will die. … This is study after study making this point." Bernie Sanders' projection of 'thousands' of deaths from lost health coverage is well-supported
+\end{quote}
+\caption{Example of true pair only retrieved by the lexical similarity feature and not by one of the listed sentence embeddings within the top 5 matches.}
+\end{figure}
+

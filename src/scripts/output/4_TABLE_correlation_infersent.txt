@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of infersent with other features.}
+\label{table:ensemble_infersent}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+USE & 0.593 & 0.315 \\
+all-mpnet-base-v2 & 0.547 & 0.410 \\
+multi-qa-mpnet-base-dot-v1 & 0.442 & 0.395 \\
+all-distil-roberta-v1 & 0.574 & 0.379 \\
+Unsup Sim CSE & 0.551 & 0.315 \\
+Sup Sim CSE & 0.577 & 0.334 \\
+ST5 & 0.551 & 0.284 \\
+SGPT & 0.438 & 0.419 \\
+Levenshtein Similarity & 0.269 & 0.136 \\
+Sequence Matching & 0.040 & 0.029 \\
+Similar Words Ratio & 0.285 & 0.240 \\
+NE Similarity & 0.531 & 0.059 \\
+Synonym Similarity & 0.106 & 0.079 \\
+\end{tabular}
+\end{table}
+

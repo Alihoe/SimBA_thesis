@@ -1,0 +1,13 @@
+\begin{table}[!htbp]
+\caption{MAP@5 for Verified Claim Retrieval Datasets.}
+\label{table:results}
+\begin{tabular}{l|c|c}
+datasets & SimBA \\
+ct 2020 2a & 0.963 \\
+ct 2021 2a & 0.951 \\
+ct 2022 2a & 0.954 \\
+ct 2021 2b & 0.462 \\
+ct 2022 2b & 0.496 \\
+\end{tabular}
+\end{table}
+

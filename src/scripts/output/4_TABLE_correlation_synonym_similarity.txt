@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of synonym_similarity with other features.}
+\label{table:ensemble_synonym_similarity}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.040 & 0.135 \\
+USE & 0.131 & 0.369 \\
+all-mpnet-base-v2 & 0.171 & 0.419 \\
+multi-qa-mpnet-base-dot-v1 & 0.193 & 0.392 \\
+all-distil-roberta-v1 & 0.162 & 0.406 \\
+Unsup Sim CSE & 0.221 & 0.351 \\
+Sup Sim CSE & 0.202 & 0.379 \\
+ST5 & 0.182 & 0.283 \\
+SGPT & 0.225 & 0.459 \\
+Levenshtein Similarity & 0.106 & 0.117 \\
+Sequence Matching & 1.000 & 0.046 \\
+Similar Words Ratio & 0.245 & 0.243 \\
+NE Similarity & 0.169 & 0.113 \\
+\end{tabular}
+\end{table}
+

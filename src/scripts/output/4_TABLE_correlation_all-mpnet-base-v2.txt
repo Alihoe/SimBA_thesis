@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of all-mpnet-base-v2 with other features.}
+\label{table:ensemble_all-mpnet-base-v2}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.547 & 0.018 \\
+USE & 0.743 & 0.043 \\
+multi-qa-mpnet-base-dot-v1 & 0.865 & 0.015 \\
+all-distil-roberta-v1 & 0.916 & 0.019 \\
+Unsup Sim CSE & 0.727 & 0.028 \\
+Sup Sim CSE & 0.764 & 0.033 \\
+ST5 & 0.814 & 0.032 \\
+SGPT & 0.729 & 0.065 \\
+Levenshtein Similarity & 0.438 & 0.021 \\
+Sequence Matching & 0.171 & -0.088 \\
+Similar Words Ratio & 0.473 & 0.065 \\
+NE Similarity & 0.417 & -0.084 \\
+Synonym Similarity & 0.337 & -0.029 \\
+\end{tabular}
+\end{table}
+

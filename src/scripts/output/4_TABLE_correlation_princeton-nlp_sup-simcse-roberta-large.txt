@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of princeton-nlp/sup-simcse-roberta-large with other features.}
+\label{table:ensemble_princeton-nlp/sup-simcse-roberta-large}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.577 & -0.011 \\
+USE & 0.778 & 0.064 \\
+all-mpnet-base-v2 & 0.764 & 0.079 \\
+multi-qa-mpnet-base-dot-v1 & 0.761 & 0.078 \\
+all-distil-roberta-v1 & 0.806 & 0.064 \\
+Unsup Sim CSE & 0.819 & 0.014 \\
+ST5 & 0.832 & 0.051 \\
+SGPT & 0.779 & 0.103 \\
+Levenshtein Similarity & 0.473 & 0.029 \\
+Sequence Matching & 0.202 & -0.116 \\
+Similar Words Ratio & 0.543 & 0.049 \\
+NE Similarity & 0.393 & -0.138 \\
+Synonym Similarity & 0.299 & -0.022 \\
+\end{tabular}
+\end{table}
+

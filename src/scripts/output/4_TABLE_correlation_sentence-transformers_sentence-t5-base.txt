@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of sentence-transformers/sentence-t5-base with other features.}
+\label{table:ensemble_sentence-transformers/sentence-t5-base}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.551 & -0.086 \\
+USE & 0.750 & 0.034 \\
+all-mpnet-base-v2 & 0.814 & 0.053 \\
+multi-qa-mpnet-base-dot-v1 & 0.777 & 0.063 \\
+all-distil-roberta-v1 & 0.813 & 0.041 \\
+Unsup Sim CSE & 0.732 & 0.024 \\
+Sup Sim CSE & 0.832 & 0.026 \\
+SGPT & 0.745 & 0.101 \\
+Levenshtein Similarity & 0.451 & -0.028 \\
+Sequence Matching & 0.182 & -0.208 \\
+Similar Words Ratio & 0.509 & -0.001 \\
+NE Similarity & 0.368 & -0.219 \\
+Synonym Similarity & 0.249 & -0.143 \\
+\end{tabular}
+\end{table}
+

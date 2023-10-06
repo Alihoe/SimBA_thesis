@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of ne_similarity with other features.}
+\label{table:ensemble_ne_similarity}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.269 & 0.139 \\
+USE & 0.454 & 0.304 \\
+all-mpnet-base-v2 & 0.438 & 0.387 \\
+multi-qa-mpnet-base-dot-v1 & 0.452 & 0.337 \\
+all-distil-roberta-v1 & 0.475 & 0.357 \\
+Unsup Sim CSE & 0.401 & 0.293 \\
+Sup Sim CSE & 0.473 & 0.287 \\
+ST5 & 0.451 & 0.230 \\
+SGPT & 0.432 & 0.390 \\
+Levenshtein Similarity & 1.000 & 0.116 \\
+Sequence Matching & 0.106 & 0.074 \\
+Similar Words Ratio & 0.384 & 0.251 \\
+Synonym Similarity & 0.187 & 0.136 \\
+\end{tabular}
+\end{table}
+

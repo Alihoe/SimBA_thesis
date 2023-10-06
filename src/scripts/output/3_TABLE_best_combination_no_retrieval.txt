@@ -1,0 +1,64 @@
+\begin{table}[!htbp]
+\caption{Scores for Combinations of Semantic Features and Lexical Feature without Retrieval.}
+\label{table:combo_no_retreival}
+\begin{tabular}{l|c|c|c|c|c|c}
+variants & ct 2020 2a & ct 2021 2a & ct 2022 2a & ct 2021 2b & ct 2022 2b & all \\
+USE + all-mpnet-base-v2 & 0.945 & 0.921 & 0.934 & 0.436 & 0.471 & 0.741 \\
+multi-qa-mpnet-base-dot-v1 + USE & 0.944 & 0.907 & 0.933 & 0.426 & 0.456 & 0.733 \\
+UnsupSimCSE + USE & 0.913 & 0.869 & 0.895 & 0.436 & 0.48 & 0.719 \\
+ST5 + USE & 0.909 & 0.855 & 0.88 & 0.441 & 0.463 & 0.71 \\
+SGPT + USE & 0.942 & 0.914 & 0.937 & 0.424 & 0.452 & 0.734 \\
+multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.958 & 0.938 & 0.938 & 0.415 & 0.454 & 0.741 \\
+UnsupSimCSE + all-mpnet-base-v2 & 0.957 & 0.935 & 0.939 & 0.452 & 0.488 & 0.754 \\
+ST5 + all-mpnet-base-v2 & 0.958 & 0.942 & 0.939 & 0.443 & 0.476 & 0.752 \\
+SGPT + all-mpnet-base-v2 & 0.962 & 0.951 & 0.952 & 0.461 & 0.486 & 0.762 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 & 0.955 & 0.922 & 0.933 & 0.442 & 0.48 & 0.746 \\
+multi-qa-mpnet-base-dot-v1 + ST5 & 0.965 & 0.932 & 0.938 & 0.432 & 0.476 & 0.749 \\
+SGPT + multi-qa-mpnet-base-dot-v1 & 0.963 & 0.946 & 0.946 & 0.452 & 0.476 & 0.757 \\
+UnsupSimCSE + ST5 & 0.912 & 0.88 & 0.89 & 0.436 & 0.476 & 0.719 \\
+UnsupSimCSE + SGPT & 0.949 & 0.934 & 0.94 & 0.445 & 0.468 & 0.747 \\
+SGPT + ST5 & 0.961 & 0.939 & 0.943 & 0.466 & 0.48 & 0.758 \\
+multi-qa-mpnet-base-dot-v1 + USE + all-mpnet-base-v2 & 0.958 & 0.94 & 0.942 & 0.427 & 0.471 & 0.748 \\
+UnsupSimCSE + USE + all-mpnet-base-v2 & 0.953 & 0.926 & 0.935 & 0.432 & 0.472 & 0.744 \\
+ST5 + USE + all-mpnet-base-v2 & 0.955 & 0.927 & 0.937 & 0.443 & 0.485 & 0.749 \\
+SGPT + USE + all-mpnet-base-v2 & 0.958 & 0.942 & 0.949 & 0.44 & 0.488 & 0.755 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + USE & 0.957 & 0.928 & 0.934 & 0.449 & 0.496 & 0.753 \\
+multi-qa-mpnet-base-dot-v1 + USE + ST5 & 0.96 & 0.915 & 0.934 & 0.464 & 0.486 & 0.752 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + USE & 0.964 & 0.94 & 0.94 & 0.434 & 0.48 & 0.752 \\
+UnsupSimCSE + ST5 + USE & 0.93 & 0.889 & 0.903 & 0.44 & 0.484 & 0.729 \\
+UnsupSimCSE + USE + SGPT & 0.948 & 0.925 & 0.925 & 0.438 & 0.474 & 0.742 \\
+SGPT + ST5 + USE & 0.959 & 0.924 & 0.943 & 0.439 & 0.472 & 0.747 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.96 & 0.936 & 0.938 & 0.436 & 0.479 & 0.75 \\
+multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 + ST5 & 0.963 & 0.944 & 0.943 & 0.42 & 0.459 & 0.746 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.963 & 0.95 & 0.951 & 0.454 & 0.486 & 0.761 \\
+UnsupSimCSE + ST5 + all-mpnet-base-v2 & 0.959 & 0.939 & 0.94 & 0.458 & 0.499 & 0.759 \\
+UnsupSimCSE + SGPT + all-mpnet-base-v2 & 0.965 & 0.945 & 0.951 & 0.446 & 0.487 & 0.759 \\
+SGPT + ST5 + all-mpnet-base-v2 & 0.963 & 0.951 & 0.954 & 0.462 & 0.496 & 0.765 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + ST5 & 0.96 & 0.927 & 0.937 & 0.453 & 0.491 & 0.754 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + SGPT & 0.96 & 0.942 & 0.947 & 0.451 & 0.487 & 0.757 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + ST5 & 0.961 & 0.951 & 0.952 & 0.455 & 0.487 & 0.761 \\
+UnsupSimCSE + ST5 + SGPT & 0.953 & 0.936 & 0.943 & 0.451 & 0.478 & 0.752 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + USE + all-mpnet-base-v2 & 0.962 & 0.941 & 0.939 & 0.427 & 0.476 & 0.749 \\
+multi-qa-mpnet-base-dot-v1 + USE + all-mpnet-base-v2 + ST5 & 0.959 & 0.939 & 0.944 & 0.427 & 0.476 & 0.749 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + USE + all-mpnet-base-v2 & 0.958 & 0.948 & 0.943 & 0.437 & 0.484 & 0.754 \\
+UnsupSimCSE + ST5 + USE + all-mpnet-base-v2 & 0.961 & 0.927 & 0.937 & 0.439 & 0.479 & 0.749 \\
+UnsupSimCSE + SGPT + USE + all-mpnet-base-v2 & 0.966 & 0.944 & 0.944 & 0.434 & 0.465 & 0.751 \\
+SGPT + ST5 + USE + all-mpnet-base-v2 & 0.964 & 0.944 & 0.948 & 0.441 & 0.482 & 0.756 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + USE + ST5 & 0.964 & 0.928 & 0.939 & 0.437 & 0.48 & 0.75 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + USE + SGPT & 0.964 & 0.947 & 0.942 & 0.442 & 0.49 & 0.757 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + USE + ST5 & 0.968 & 0.943 & 0.945 & 0.441 & 0.488 & 0.757 \\
+UnsupSimCSE + ST5 + USE + SGPT & 0.955 & 0.936 & 0.935 & 0.44 & 0.477 & 0.749 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 + ST5 & 0.962 & 0.943 & 0.937 & 0.432 & 0.479 & 0.751 \\
+UnsupSimCSE + SGPT + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.966 & 0.945 & 0.944 & 0.441 & 0.484 & 0.756 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 + ST5 & 0.963 & 0.952 & 0.951 & 0.45 & 0.489 & 0.761 \\
+UnsupSimCSE + SGPT + ST5 + all-mpnet-base-v2 & 0.965 & 0.947 & 0.95 & 0.449 & 0.49 & 0.76 \\
+UnsupSimCSE + multi-qa-mpnet-base-dot-v1 + SGPT + ST5 & 0.962 & 0.943 & 0.945 & 0.451 & 0.486 & 0.757 \\
+UnsupSimCSE + all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + ST5 + USE & 0.964 & 0.942 & 0.943 & 0.429 & 0.479 & 0.751 \\
+UnsupSimCSE + all-mpnet-base-v2 + SGPT + multi-qa-mpnet-base-dot-v1 + USE & 0.964 & 0.944 & 0.942 & 0.439 & 0.486 & 0.755 \\
+all-mpnet-base-v2 + SGPT + multi-qa-mpnet-base-dot-v1 + ST5 + USE & 0.961 & 0.945 & 0.944 & 0.444 & 0.487 & 0.756 \\
+UnsupSimCSE + all-mpnet-base-v2 + SGPT + ST5 + USE & 0.962 & 0.942 & 0.944 & 0.437 & 0.468 & 0.751 \\
+UnsupSimCSE + SGPT + multi-qa-mpnet-base-dot-v1 + ST5 + USE & 0.966 & 0.947 & 0.944 & 0.441 & 0.489 & 0.757 \\
+UnsupSimCSE + all-mpnet-base-v2 + SGPT + multi-qa-mpnet-base-dot-v1 + ST5 & 0.966 & 0.947 & 0.942 & 0.44 & 0.479 & 0.755 \\
+\end{tabular}
+\end{table}
+

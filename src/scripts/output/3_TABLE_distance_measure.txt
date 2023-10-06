@@ -1,0 +1,13 @@
+\begin{table}[!htbp]
+\caption{Comparison of Distance Measures.}
+\label{table:distance_measure}
+\begin{tabular}{l|c|c|c|c}
+datasets & braycurtis & canberra & cosine & euclidean \\
+ct 2020 2a & 0.963 & 0.97 & 0.963 & 0.703 \\
+ct 2021 2a & 0.948 & 0.945 & 0.951 & 0.659 \\
+ct 2022 2a & 0.953 & 0.936 & 0.954 & 0.706 \\
+ct 2021 2b & 0.464 & 0.423 & 0.462 & 0.272 \\
+ct 2022 2b & 0.491 & 0.453 & 0.496 & 0.292 \\
+\end{tabular}
+\end{table}
+

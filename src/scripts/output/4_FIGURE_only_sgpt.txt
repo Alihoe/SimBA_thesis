@@ -1,0 +1,444 @@
+\begin{figure}[hbtp!]
+\label{only_sgpt_0}
+\begin{quote}
+\textbf{Query:} So what you do is you have a whistleblower with a fake story, just like -- it's just as fake as Schiff's story.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "The first so-called second hand information ‘Whistleblower’ got my phone conversation almost completely wrong." Donald Trump is wrong. Whistleblower account of Ukraine phone call was 'almost completely' right
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+"We have not spoken directly with the whistleblower." Adam Schiff’s false claim that ‘we have not spoken directly with the whistleblower’
+\end{quote}
+\begin{quote}
+\footnotesize
+Says "James Comey Has Been Having An Affair With" Debbie Wasserman Schultz. It's fake news that James Comey and Debbie Wasserman Schultz are an item
+\end{quote}
+\begin{quote}
+\footnotesize
+"Trump’s Android device believed to be source of recent White House leaks." Reports that Donald Trump’s unsecured Android phone is root of White House leaks are made up. Fake!
+\end{quote}
+\begin{quote}
+\footnotesize
+"FBI issues Warrant For Obama’s Arrest After Confirming Illegal Trump Tower Wiretap." It's a trap! Story that FBI issued warrant for Obama in Trump wiretapping case is fake
+\end{quote}
+\begin{quote}
+\footnotesize
+Says a Washington Post reporter who broke news on Judge Roy Moore story has a criminal history of "faking." No, the Washington Post Roy Moore reporter doesn't have a history of 'faking'
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"We have not spoken directly with the whistleblower." Adam Schiff’s false claim that ‘we have not spoken directly with the whistleblower’
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Rep. Adam Schiff was "complicit in EDITING AND COMPOSING THE ‘WHISTLEBLOWER COMPLAINT’ BEFORE IT WAS FILED." There’s no evidence Schiff helped write the whistleblower complaint
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Adam Schiff used taxpayer money to "reach a sexual harassment settlement with a 19-year-old male." No, Adam Schiff did not use taxpayer funds for a sexual harassment settlement
+\end{quote}
+\begin{quote}
+\footnotesize
+Adam Schiff Paid Witnesses Over $40 Million To Testify Against Trump No, Adam Schiff didn’t pay witnesses to testify against President Trump
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Adam Schiff’s family Christmas card has a photo of the whistleblower, who is dating Schiff’s daughter. No, this isn’t the whistleblower posing with Adam Schiff’s family
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"We have not spoken directly with the whistleblower." Adam Schiff’s false claim that ‘we have not spoken directly with the whistleblower’
+\end{quote}
+\begin{quote}
+\footnotesize
+Says a photo shows Adam Schiff and Jeffrey Epstein. This image of Adam Schiff and Jeffrey Epstein is doctored
+\end{quote}
+\begin{quote}
+\footnotesize
+The FBI uncovered "256 texts between Adam Schiff and Jeffrey Epstein" No, the FBI didn’t find over 250 texts between Schiff, Epstein. A satire site made it up
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Rep. Adam Schiff was "complicit in EDITING AND COMPOSING THE ‘WHISTLEBLOWER COMPLAINT’ BEFORE IT WAS FILED." There’s no evidence Schiff helped write the whistleblower complaint
+\end{quote}
+\begin{quote}
+\footnotesize
+"Longstanding whistleblower rules (were changed) just before submittal of the fake whistleblower report." Donald Trump’s false claim about a change in whistleblower rules
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_sgpt_1}
+\begin{quote}
+\textbf{Query:} But I watched Joe Biden with the prosecutor, who a lot of people said was a great prosecutor, and they took him off.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "Fact: Joe Biden pressured Ukraine to fire its prosecutor .... Fact: the prosecutor said he was forced out for leading a corruption probe into Hunter Biden's company. Fact: Democrats want to impeach President Trump for discussing this investigation with Ukraine's President." Donald Trump ad misleads about Joe Biden, Ukraine and the prosecutor
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+Says Debo Adegbile "was nominated to serve as a judge on the U.S. Circuit Court of Appeals" and "was abruptly withdrawn by the administration." Pat Toomey says Barack Obama previously nominated Debo Adegbile in 2011 for a judgeship
+\end{quote}
+\begin{quote}
+\footnotesize
+"Vice President Biden threatened a foreign country and forced them to fire a prosecutor who was investigating a company," that paid his son Hunter. Sen. Rick Scott’s Iowa ad misleads about Joe Biden and prosecutor in Ukraine
+\end{quote}
+\begin{quote}
+\footnotesize
+“You had the last two administrations deport twice as many people as we deported — twice as many.” The facts behind Joe Biden’s claim on deportations under Obama
+\end{quote}
+\begin{quote}
+\footnotesize
+"Fact: Joe Biden pressured Ukraine to fire its prosecutor .... Fact: the prosecutor said he was forced out for leading a corruption probe into Hunter Biden's company. Fact: Democrats want to impeach President Trump for discussing this investigation with Ukraine's President." Donald Trump ad misleads about Joe Biden, Ukraine and the prosecutor
+\end{quote}
+\begin{quote}
+\footnotesize
+Says that as vice president, he pinned a Silver Star on a Navy captain in Afghanistan who had carried a mortally wounded comrade out of a ravine, and resisted receiving a medal for his actions. The facts behind Joe Biden’s blended story of battlefield heroism
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+“When asked about court-packing, Biden's staff immediately escorts the camera out.” Trump campaign uses cherry-picked video to attack Biden
+\end{quote}
+\begin{quote}
+\footnotesize
+"Vice President Biden threatened a foreign country and forced them to fire a prosecutor who was investigating a company," that paid his son Hunter. Sen. Rick Scott’s Iowa ad misleads about Joe Biden and prosecutor in Ukraine
+\end{quote}
+\begin{quote}
+\footnotesize
+"A lot of people are talking about" the removal of a "very fair prosecutor" in Ukraine. Donald Trump’s boasts about former Ukrainian prosecutor’s fairness ring false
+\end{quote}
+\begin{quote}
+\footnotesize
+“On 60 Minutes, Joe said he never met with Hunter and the Burisma CEO. Well, here he is with both.” No, this photo doesn’t show Joe and Hunter Biden with Burisma CEO
+\end{quote}
+\begin{quote}
+\footnotesize
+“Barack Obama was arrested.” Barack Obama wasn’t arrested before Biden’s inauguration
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+Says Mike Pence was arrested. No, Mike Pence wasn’t arrested
+\end{quote}
+\begin{quote}
+\footnotesize
+“Biden campaign director arrested for electoral fraud.” No, a Biden campaign official wasn’t arrested for election fraud in Texas
+\end{quote}
+\begin{quote}
+\footnotesize
+“When asked about court-packing, Biden's staff immediately escorts the camera out.” Trump campaign uses cherry-picked video to attack Biden
+\end{quote}
+\begin{quote}
+\footnotesize
+“President-elect Biden steps down as president-elect.” No, Joe Biden hasn’t stepped down
+\end{quote}
+\begin{quote}
+\footnotesize
+Loretta Lynch, the new nominee for attorney general, "was a member of Bill Clinton's defense team during the 1992 Whitewater corruption probe." Breitbart gets the wrong Loretta Lynch in Whitewater claim
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_sgpt_2}
+\begin{quote}
+\textbf{Query:} I've been tougher on Russia than any president in history.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+"I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+\begin{quote}
+\footnotesize
+After Russia went to war with Georgia in 2008, the U.S. sent a "very strong message" to Vladimir Putin by sending "warships to the Black Sea" and airlifting "combat troops that Georgia had in Afghanistan" back to Georgia. Karl Rove says George W. Bush had a more muscular stance against Putin in 2008 Georgia crisis than Barack Obama has had over Crimea
+\end{quote}
+\begin{quote}
+\footnotesize
+"This is not the first time (the Russians) have been involved in our elections." Here's every time Russian or Soviet spies tried to interfere in US elections. How does 2016 compare?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have more military experience than anybody who’s arrived behind that desk since George H.W. Bush." Would White House hopeful Pete Buttigieg have more military experience than any recent president?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I'm the only person on this stage who has worked actively just last year passing, along with Russ Feingold, some of the toughest ethics reform since Watergate." He had help
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+\begin{quote}
+\footnotesize
+After Russia went to war with Georgia in 2008, the U.S. sent a "very strong message" to Vladimir Putin by sending "warships to the Black Sea" and airlifting "combat troops that Georgia had in Afghanistan" back to Georgia. Karl Rove says George W. Bush had a more muscular stance against Putin in 2008 Georgia crisis than Barack Obama has had over Crimea
+\end{quote}
+\begin{quote}
+\footnotesize
+"Documents released from the Soviet Union" show "the Soviet Union started treating" President Ronald Reagan more seriously after Reagan fired the air traffic controllers. Scott Walker: Records show Soviets treated Ronald Reagan more seriously after he fired controllers
+\end{quote}
+\begin{quote}
+\footnotesize
+"As secretary of state, (Hillary Clinton) worked hard to get strong sanctions against Iran's nuclear program" and "got Russia and China to support them." Bill Clinton praises Hillary's 'half-court shot' on Iran sanctions as secretary of state
+\end{quote}
+\begin{quote}
+\footnotesize
+"A few months ago when you were asked what's the biggest geopolitical threat facing America, you said Russia." Obama: Romney called Russia our top geopolitical threat
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+\begin{quote}
+\footnotesize
+"A few months ago when you were asked what's the biggest geopolitical threat facing America, you said Russia." Obama: Romney called Russia our top geopolitical threat
+\end{quote}
+\begin{quote}
+\footnotesize
+"I’ve been on the Armed Services (Committee) for 10 years. No call or meeting w/ Russian ambassador. Ever." Claire McCaskill says she never met with Russian ambassador, past tweets say otherwise
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Romney called Russia our No. 1 enemy. Obama says Romney called Russia our ‘No. 1 enemy’
+\end{quote}
+\begin{quote}
+\footnotesize
+"I spent 18 months putting together the sanctions against Iran so that we could force them to the negotiating table." Hillary Clinton says she helped usher Iran to the negotiating table
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_sgpt_3}
+\begin{quote}
+\textbf{Query:} Furthermore, I am very proud that today I have a D- voting record from the NRA.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+Says U.S. Rep. John Barrow, D-Ga., celebrates gun ownership even in the face of school shootings. Anti-gun group misfires in attack on Barrow
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have a perfect voting record from organizations like the Veterans of Foreign Wars, the American Legion and all the other veterans service organizations." Not perfect with all the veterans
+\end{quote}
+\begin{quote}
+\footnotesize
+"I'm proud to have had a 100 percent pro-life voting record." He's right on
+\end{quote}
+\begin{quote}
+\footnotesize
+A "wide majority of NRA households ... supported this legislation" on gun background checks. Barack Obama says a “wide majority of NRA households" supported gun legislation
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+"Joe Manchin has a ‘D' rating from the NRA." Does Joe Manchin have a D rating from the National Rifle Association?
+\end{quote}
+\begin{quote}
+\footnotesize
+"Gene Green is the NRA’s favorite Democrat in Congress. ... "It’s no wonder the congressman has a lifetime A rating from the NRA." Adrian Garcia mischaracterizes the NRA's support of Gene Green
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Gary Farmer’s claim that he "received an 'A' from the NRA" is "an absolute lie." Florida Senate candidate never actually received an A from the NRA
+\end{quote}
+\begin{quote}
+\footnotesize
+"The NRA supported background checks..." Kathleen Murphy has rosy memory of NRA's past support for background checks
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+"Joe Manchin has a ‘D' rating from the NRA." Does Joe Manchin have a D rating from the National Rifle Association?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I'm proud to have had a 100 percent pro-life voting record." He's right on
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have a perfect voting record from organizations like the Veterans of Foreign Wars, the American Legion and all the other veterans service organizations." Not perfect with all the veterans
+\end{quote}
+\begin{quote}
+\footnotesize
+"40% of Americans know someone who has been killed by a gun." Debbie Wasserman Schultz right about far-reaching effects of gun violence
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_sgpt_4}
+\begin{quote}
+\textbf{Query:} I am saying that you have been on the floor of the Senate time and time again, talking about the need to cut Social Security, Medicare, and veterans programs.
+\end{quote}
+\begin{quote}
+\textbf{Target:} Says Joe Biden "has advocated cutting Social Security for 40 years" Sanders’ misleading Social Security attack on Biden
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+Says Patrick Murphy advocated for "cuts to Social Security and Medicare." Patrick Murphy wanted to cut Social Security and Medicare, Senate GOP says
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Obama puts "15 unelected, unaccountable bureaucrats in charge of Medicare, who are required to cut Medicare ... that will lead to denied care for current seniors." Paul Ryan said "15 unelected, unaccountable bureaucrats" could "lead to denied care for current seniors"
+\end{quote}
+\begin{quote}
+\footnotesize
+Says U.S. Rep. Paul Ryan promised to "end health care for our seniors." Democratic Wisconsin state Rep. Sandy Pasch says GOP U.S. Rep. Paul Ryan’s budget plan would end health care for seniors
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Republicans Mitt Romney and Paul Ryan support "massive cuts in Social Security for future generations." Biden says Romney and Ryan support "massive cuts in Social Security for future generations."
+\end{quote}
+\begin{quote}
+\footnotesize
+Under sequestration, the military was cut "down to the smallest Army since 1940, the smallest Navy since 1915." Lindsey Graham: Army is smallest since 1940, Navy smallest since 1915
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"Congress has cut funding, has slashed funding, for veterans' benefits over these last years." Katrina vanden Heuvel says Congress has 'slashed funding for veterans' benefits' in recent years
+\end{quote}
+\begin{quote}
+\footnotesize
+"Republicans in Congress are plotting to take away Medicare, Medicaid and Social Security." Do Republicans in Congress want to take away Social Security, Medicare, Medicaid?
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Patrick Murphy advocated for "cuts to Social Security and Medicare." Patrick Murphy wanted to cut Social Security and Medicare, Senate GOP says
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Kevin Cramer wants to cut Social Security and Medicare to pay for tax cuts. Fact-checking Democratic attack on Kevin Cramer's statements on Social Security and Medicare
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Mike Gallagher’s plan "would cut Social Security benefits for two-thirds of seniors." In U.S. House race, Republican accused of backing cuts to two-thirds of Social Security recipients
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"Seniors will see $500 billion in Medicare cuts to fund Obamacare." Chamber says Bill Nelson voted to cut Medicare $500 billion
+\end{quote}
+\begin{quote}
+\footnotesize
+"Republicans in Congress are plotting to take away Medicare, Medicaid and Social Security." Do Republicans in Congress want to take away Social Security, Medicare, Medicaid?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I just want to assure [you] we're not talking about cutting Medicare benefits." Obama claims Medicare benefits will not be cut under the health care bill
+\end{quote}
+\begin{quote}
+\footnotesize
+"Joe, I keep hearing you every morning talking about the biggest tax increase in history, but you don't mention it's also the biggest tax cut in history.'' Durbin's tax reduction claim doesn't cut it
+\end{quote}
+\begin{quote}
+\footnotesize
+“Democrats introduce bill to ‘euthanize seniors’ to save Social Security.” No, Democrats aren’t advocating euthanizing senior citizens to save Social Security
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_sgpt_5}
+\begin{quote}
+\textbf{Query:} Well, we have 20% of the cases because of the fact that we do much more testing.
+\end{quote}
+\begin{quote}
+\textbf{Target:} “If we stopped testing right now, we'd have very few cases, if any.” Trump’s take on COVID testing gives short shrift to public health realities
+\end{quote}
+Top 5 targets predicted by \textit{ST5}:
+\begin{quote}
+\footnotesize
+"The pace of missile development between (Kim Jong Il and Kim Jong Un) has increased the testing about twenty-fold." North Korea's missile testing and development has increased 'twenty-fold' says Sen. Richard Burr
+\end{quote}
+\begin{quote}
+\footnotesize
+"Twenty percent of our electricity currently comes from nuclear power plants. I think there are 104 in the United States, two of them around the coast in California." Bill Kristol says 20 percent of U.S. electricity comes from nuclear power
+\end{quote}
+\begin{quote}
+\footnotesize
+Says a study shows that children who live with a biological parent and the parent's boyfriend or girlfriend "have a 20 times greater chance of being sexually abused." GOP Wisconsin state senator says study shows kids living with parent and parent's partner "20 times" more likely to be sexually abused
+\end{quote}
+\begin{quote}
+\footnotesize
+"The proportion of Rhode Islanders entering substance abuse treatment primarily due to marijuana use has reached its highest point in 20 years." Anti-marijuana advocate says treatment levels have reached their highest point in 20 years
+\end{quote}
+\begin{quote}
+\footnotesize
+Says "80 percent of the health care dollars are spent by 20 percent of the population." Does 20% of the population really use 80% of health care dollars?
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+The United States is “actually screening fewer people (for the coronavirus than other countries) because we don't have appropriate testing." Lou Dobbs says United States ‘screening fewer people’ for coronavirus than other countries
+\end{quote}
+\begin{quote}
+\footnotesize
+“We are currently using only around 20% of our testing capacity.” Wisconsin is weeks from using anywhere near the listed coronavirus testing capacity
+\end{quote}
+\begin{quote}
+\footnotesize
+“Some states are only getting 50 tests per day, and the Utah Jazz got 58.” How the Utah Jazz got 58 coronavirus tests when US testing is sluggish
+\end{quote}
+\begin{quote}
+\footnotesize
+Says "in Oregon only 41 percent of adults have ever been tested" for HIV. Have only 41% of Oregon adults ever been tested for HIV?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I had prostate cancer, five, six years ago. My chance of surviving prostate cancer, and thank God I was cured of it, in the United States, 82%. My chances of surviving prostate cancer in England, only 44% under socialized medicine." Wrong numbers, off point
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+“Some states are only getting 50 tests per day, and the Utah Jazz got 58.” How the Utah Jazz got 58 coronavirus tests when US testing is sluggish
+\end{quote}
+\begin{quote}
+\footnotesize
+COVID-19 cases are “up only because of our big number testing.” Donald Trump wrong that greater testing is driving coronavirus case load
+\end{quote}
+\begin{quote}
+\footnotesize
+“We are currently using only around 20% of our testing capacity.” Wisconsin is weeks from using anywhere near the listed coronavirus testing capacity
+\end{quote}
+\begin{quote}
+\footnotesize
+“In the last 10 years less than half of adults in the U.S. received a flu shot.” How many adults get flu shots each year?
+\end{quote}
+\begin{quote}
+\footnotesize
+“The Trump Administration promised 27 million tests by the end of March. As of now, only 4 million have been completed.” Joe Biden conflates tests on the market with Americans tested
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{SGPT}.}
+\end{figure}
+

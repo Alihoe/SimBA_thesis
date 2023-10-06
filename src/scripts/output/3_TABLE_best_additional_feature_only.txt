@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\caption{MAP@5 for Combination of Semantic Features with Additional Features without Retrieval.}
+\label{table:additional}
+\begin{tabular}{l|c|c|c|c|c|c}
+variants & ct 2020 2a & ct 2021 2a & ct 2022 2a & ct 2021 2b & ct 2022 2b & all \\
+SimBA (Semantic + Lexical) & 0.961 & 0.935 & 0.942 & 0.461 & 0.502 & 0.76 \\
+Lexical Only & 0.576 & 0.582 & 0.713 & 0.319 & 0.337 & 0.505 \\
+Semantic Only & 0.948 & 0.924 & 0.916 & 0.377 & 0.416 & 0.716 \\
+Sequence Only & 0.325 & 0.191 & 0.148 & 0.161 & 0.196 & 0.204 \\
+Levenshtein Only & 0.45 & 0.346 & 0.293 & 0.181 & 0.221 & 0.298 \\
+Synonym Only & 0.33 & 0.24 & 0.273 & 0.141 & 0.165 & 0.23 \\
+NE Only & 0.312 & 0.216 & 0.32 & 0.095 & 0.1 & 0.209 \\
+Semantic + Sequence & 0.94 & 0.895 & 0.886 & 0.407 & 0.453 & 0.716 \\
+Semantic + Levenshtein & 0.956 & 0.941 & 0.918 & 0.388 & 0.444 & 0.729 \\
+Semantic + Synonym & 0.945 & 0.911 & 0.93 & 0.405 & 0.431 & 0.724 \\
+Semantic + NE & 0.925 & 0.901 & 0.907 & 0.391 & 0.423 & 0.709 \\
+\end{tabular}
+\end{table}
+

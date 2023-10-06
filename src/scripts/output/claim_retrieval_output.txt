@@ -1,0 +1,72 @@
+\begin{table}[!htbp]
+\caption{Recall After Retrieval Step}
+\label{table:recall}
+\begin{tabular}{c|c|c|c|c|c|c}
+$Sentence Encoders$ & $ct 2020 2a$ & $ct 2021 2a$ & $ct 2022 2a$ & $ct 2021 2b$ & $ct 2022 2b$ & $scifact$ \\
+infersent & 0.595 & 0.604 & 0.522 & 0.350 & 0.386 & 0.171 \\
+https://tfhub.dev/google/universal-sentence-encoder/4 & 0.955 & 0.946 & 0.938 & 0.544 & 0.614 & 0.578 \\
+all-mpnet-base-v2 & 0.985 & 0.985 & 0.967 & 0.466 & 0.530 & 0.914 \\
+multi-qa-mpnet-base-dot-v1 & 0.985 & 0.990 & 0.976 & 0.524 & 0.590 & 0.835 \\
+all-distilroberta-v1 & 0.995 & 0.990 & 0.967 & 0.485 & 0.578 & 0.888 \\
+princeton-nlp/unsup-simcse-roberta-large & 0.955 & 0.946 & 0.914 & 0.544 & 0.614 & 0.676 \\
+princeton-nlp/sup-simcse-roberta-large & 0.985 & 0.985 & 0.962 & 0.563 & 0.614 & 0.705 \\
+sentence-transformers/sentence-t5-base & 0.985 & 0.985 & 0.962 & 0.466 & 0.494 & 0.732 \\
+['infersent', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.940 & 0.916 & 0.914 & 0.524 & 0.590 & 0.572 \\
+['infersent', 'all-mpnet-base-v2'] & 0.985 & 0.985 & 0.957 & 0.476 & 0.530 & 0.894 \\
+['infersent', 'multi-qa-mpnet-base-dot-v1'] & 0.985 & 0.980 & 0.967 & 0.495 & 0.566 & 0.820 \\
+['infersent', 'all-distilroberta-v1'] & 0.980 & 0.985 & 0.952 & 0.515 & 0.614 & 0.867 \\
+['infersent', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.940 & 0.941 & 0.900 & 0.515 & 0.578 & 0.693 \\
+['infersent', 'princeton-nlp/sup-simcse-roberta-large'] & 0.955 & 0.946 & 0.928 & 0.505 & 0.590 & 0.664 \\
+['infersent', 'sentence-transformers/sentence-t5-base'] & 0.930 & 0.896 & 0.842 & 0.437 & 0.506 & 0.537 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'infersent'] & 0.940 & 0.916 & 0.914 & 0.524 & 0.590 & 0.572 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'all-mpnet-base-v2'] & 0.985 & 0.990 & 0.971 & 0.563 & 0.627 & 0.861 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'multi-qa-mpnet-base-dot-v1'] & 0.990 & 0.990 & 0.981 & 0.563 & 0.639 & 0.788 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'all-distilroberta-v1'] & 0.985 & 0.995 & 0.976 & 0.563 & 0.627 & 0.847 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.975 & 0.980 & 0.957 & 0.583 & 0.675 & 0.726 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'princeton-nlp/sup-simcse-roberta-large'] & 0.980 & 0.960 & 0.971 & 0.592 & 0.675 & 0.690 \\
+['https://tfhub.dev/google/universal-sentence-encoder/4', 'sentence-transformers/sentence-t5-base'] & 0.975 & 0.960 & 0.957 & 0.553 & 0.627 & 0.670 \\
+['all-mpnet-base-v2', 'infersent'] & 0.985 & 0.985 & 0.957 & 0.476 & 0.530 & 0.894 \\
+['all-mpnet-base-v2', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.985 & 0.990 & 0.971 & 0.563 & 0.627 & 0.861 \\
+['all-mpnet-base-v2', 'multi-qa-mpnet-base-dot-v1'] & 0.985 & 0.985 & 0.981 & 0.495 & 0.578 & 0.914 \\
+['all-mpnet-base-v2', 'all-distilroberta-v1'] & 0.985 & 0.995 & 0.967 & 0.495 & 0.566 & 0.929 \\
+['all-mpnet-base-v2', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.985 & 0.990 & 0.976 & 0.573 & 0.651 & 0.906 \\
+['all-mpnet-base-v2', 'princeton-nlp/sup-simcse-roberta-large'] & 0.985 & 0.995 & 0.986 & 0.583 & 0.651 & 0.903 \\
+['all-mpnet-base-v2', 'sentence-transformers/sentence-t5-base'] & 0.985 & 0.985 & 0.981 & 0.505 & 0.578 & 0.912 \\
+['multi-qa-mpnet-base-dot-v1', 'infersent'] & 0.985 & 0.980 & 0.967 & 0.495 & 0.566 & 0.820 \\
+['multi-qa-mpnet-base-dot-v1', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.990 & 0.990 & 0.981 & 0.563 & 0.639 & 0.788 \\
+['multi-qa-mpnet-base-dot-v1', 'all-mpnet-base-v2'] & 0.985 & 0.985 & 0.981 & 0.495 & 0.578 & 0.914 \\
+['multi-qa-mpnet-base-dot-v1', 'all-distilroberta-v1'] & 0.995 & 0.995 & 0.981 & 0.505 & 0.590 & 0.906 \\
+['multi-qa-mpnet-base-dot-v1', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.985 & 0.995 & 0.976 & 0.583 & 0.651 & 0.850 \\
+['multi-qa-mpnet-base-dot-v1', 'princeton-nlp/sup-simcse-roberta-large'] & 0.995 & 0.990 & 0.981 & 0.631 & 0.675 & 0.855 \\
+['multi-qa-mpnet-base-dot-v1', 'sentence-transformers/sentence-t5-base'] & 0.990 & 0.990 & 0.976 & 0.524 & 0.566 & 0.841 \\
+['all-distilroberta-v1', 'infersent'] & 0.980 & 0.985 & 0.952 & 0.515 & 0.614 & 0.867 \\
+['all-distilroberta-v1', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.985 & 0.995 & 0.976 & 0.563 & 0.627 & 0.847 \\
+['all-distilroberta-v1', 'all-mpnet-base-v2'] & 0.985 & 0.995 & 0.967 & 0.495 & 0.566 & 0.929 \\
+['all-distilroberta-v1', 'multi-qa-mpnet-base-dot-v1'] & 0.995 & 0.995 & 0.981 & 0.505 & 0.590 & 0.906 \\
+['all-distilroberta-v1', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.995 & 0.995 & 0.967 & 0.563 & 0.639 & 0.888 \\
+['all-distilroberta-v1', 'princeton-nlp/sup-simcse-roberta-large'] & 0.995 & 0.995 & 0.976 & 0.573 & 0.639 & 0.885 \\
+['all-distilroberta-v1', 'sentence-transformers/sentence-t5-base'] & 0.995 & 0.995 & 0.976 & 0.544 & 0.614 & 0.891 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'infersent'] & 0.940 & 0.941 & 0.900 & 0.515 & 0.578 & 0.693 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.975 & 0.980 & 0.957 & 0.583 & 0.675 & 0.726 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'all-mpnet-base-v2'] & 0.985 & 0.990 & 0.976 & 0.573 & 0.651 & 0.906 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'multi-qa-mpnet-base-dot-v1'] & 0.985 & 0.995 & 0.976 & 0.583 & 0.651 & 0.850 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'all-distilroberta-v1'] & 0.995 & 0.995 & 0.967 & 0.563 & 0.639 & 0.888 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'princeton-nlp/sup-simcse-roberta-large'] & 0.975 & 0.975 & 0.947 & 0.563 & 0.639 & 0.732 \\
+['princeton-nlp/unsup-simcse-roberta-large', 'sentence-transformers/sentence-t5-base'] & 0.975 & 0.985 & 0.952 & 0.563 & 0.639 & 0.764 \\
+['princeton-nlp/sup-simcse-roberta-large', 'infersent'] & 0.955 & 0.946 & 0.928 & 0.505 & 0.590 & 0.664 \\
+['princeton-nlp/sup-simcse-roberta-large', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.980 & 0.960 & 0.971 & 0.592 & 0.675 & 0.690 \\
+['princeton-nlp/sup-simcse-roberta-large', 'all-mpnet-base-v2'] & 0.985 & 0.995 & 0.986 & 0.583 & 0.651 & 0.903 \\
+['princeton-nlp/sup-simcse-roberta-large', 'multi-qa-mpnet-base-dot-v1'] & 0.995 & 0.990 & 0.981 & 0.631 & 0.675 & 0.855 \\
+['princeton-nlp/sup-simcse-roberta-large', 'all-distilroberta-v1'] & 0.995 & 0.995 & 0.976 & 0.573 & 0.639 & 0.885 \\
+['princeton-nlp/sup-simcse-roberta-large', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.975 & 0.975 & 0.947 & 0.563 & 0.639 & 0.732 \\
+['princeton-nlp/sup-simcse-roberta-large', 'sentence-transformers/sentence-t5-base'] & 0.990 & 0.990 & 0.981 & 0.563 & 0.627 & 0.767 \\
+['sentence-transformers/sentence-t5-base', 'infersent'] & 0.930 & 0.896 & 0.842 & 0.437 & 0.506 & 0.537 \\
+['sentence-transformers/sentence-t5-base', 'https://tfhub.dev/google/universal-sentence-encoder/4'] & 0.975 & 0.960 & 0.957 & 0.553 & 0.627 & 0.670 \\
+['sentence-transformers/sentence-t5-base', 'all-mpnet-base-v2'] & 0.985 & 0.985 & 0.981 & 0.505 & 0.578 & 0.912 \\
+['sentence-transformers/sentence-t5-base', 'multi-qa-mpnet-base-dot-v1'] & 0.990 & 0.990 & 0.976 & 0.524 & 0.566 & 0.841 \\
+['sentence-transformers/sentence-t5-base', 'all-distilroberta-v1'] & 0.995 & 0.995 & 0.976 & 0.544 & 0.614 & 0.891 \\
+['sentence-transformers/sentence-t5-base', 'princeton-nlp/unsup-simcse-roberta-large'] & 0.975 & 0.985 & 0.952 & 0.563 & 0.639 & 0.764 \\
+['sentence-transformers/sentence-t5-base', 'princeton-nlp/sup-simcse-roberta-large'] & 0.990 & 0.990 & 0.981 & 0.563 & 0.627 & 0.767 \\
+\end{tabular}
+\end{table}
+

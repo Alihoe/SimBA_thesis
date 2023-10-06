@@ -1,0 +1,128 @@
+\begin{figure}[hbtp!]
+\label{only_multi_qa_0}
+\begin{quote}
+\textbf{Query:} I've been tougher on Russia than any president in history.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+\begin{quote}
+\footnotesize
+After Russia went to war with Georgia in 2008, the U.S. sent a "very strong message" to Vladimir Putin by sending "warships to the Black Sea" and airlifting "combat troops that Georgia had in Afghanistan" back to Georgia. Karl Rove says George W. Bush had a more muscular stance against Putin in 2008 Georgia crisis than Barack Obama has had over Crimea
+\end{quote}
+\begin{quote}
+\footnotesize
+"Documents released from the Soviet Union" show "the Soviet Union started treating" President Ronald Reagan more seriously after Reagan fired the air traffic controllers. Scott Walker: Records show Soviets treated Ronald Reagan more seriously after he fired controllers
+\end{quote}
+\begin{quote}
+\footnotesize
+"As secretary of state, (Hillary Clinton) worked hard to get strong sanctions against Iran's nuclear program" and "got Russia and China to support them." Bill Clinton praises Hillary's 'half-court shot' on Iran sanctions as secretary of state
+\end{quote}
+\begin{quote}
+\footnotesize
+"A few months ago when you were asked what's the biggest geopolitical threat facing America, you said Russia." Obama: Romney called Russia our top geopolitical threat
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{multi-qa-mpnet-base-dot-v1} and not by \textit{all-mpnet-base-v2}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_multi_qa_1}
+\begin{quote}
+\textbf{Query:} 30,000 die because they don’t get to a doctor on time, and 500,000 people going bankrupt, for what reason?
+\end{quote}
+\begin{quote}
+\textbf{Target:} "30,000 Americans a year die waiting for health care because of the cost." Fuzzy math fuels Sanders’ claim that cost barriers to health care kill 30,000 a year
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+Sixty-two percent of all personal bankruptcies are "caused by medical problems." Medical bankruptcy study not so clear-cut
+\end{quote}
+\begin{quote}
+\footnotesize
+Half of all personal bankruptcies in America "are caused by medical bills." A broad definition of "medical bills"
+\end{quote}
+\begin{quote}
+\footnotesize
+"The largest number of bankruptcies in our country are really as a result of health care." Former U.S. Rep. Patrick Kennedy says most bankruptcies in U.S. are due to health care costs
+\end{quote}
+\begin{quote}
+\footnotesize
+"Each year, 18,000 people die in America because they don't have health care." Indeed, uninsured people have higher mortality rate
+\end{quote}
+\begin{quote}
+\footnotesize
+"53 percent of Americans cut back on their health care in the last year because of costs." Pascrell says 53 percent of Americans cut back on health care due to costs
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{multi-qa-mpnet-base-dot-v1} and not by \textit{all-mpnet-base-v2}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_multi_qa_2}
+\begin{quote}
+\textbf{Query:} Furthermore, I am very proud that today I have a D- voting record from the NRA.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+"Joe Manchin has a ‘D' rating from the NRA." Does Joe Manchin have a D rating from the National Rifle Association?
+\end{quote}
+\begin{quote}
+\footnotesize
+"Gene Green is the NRA’s favorite Democrat in Congress. ... "It’s no wonder the congressman has a lifetime A rating from the NRA." Adrian Garcia mischaracterizes the NRA's support of Gene Green
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Gary Farmer’s claim that he "received an 'A' from the NRA" is "an absolute lie." Florida Senate candidate never actually received an A from the NRA
+\end{quote}
+\begin{quote}
+\footnotesize
+"The NRA supported background checks..." Kathleen Murphy has rosy memory of NRA's past support for background checks
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{multi-qa-mpnet-base-dot-v1} and not by \textit{all-mpnet-base-v2}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_multi_qa_3}
+\begin{quote}
+\textbf{Query:} Well, we have 20% of the cases because of the fact that we do much more testing.
+\end{quote}
+\begin{quote}
+\textbf{Target:} COVID-19 cases are “up only because of our big number testing.” Donald Trump wrong that greater testing is driving coronavirus case load
+\end{quote}
+Top 5 targets predicted by \textit{all-mpnet-base-v2}:
+\begin{quote}
+\footnotesize
+The United States is “actually screening fewer people (for the coronavirus than other countries) because we don't have appropriate testing." Lou Dobbs says United States ‘screening fewer people’ for coronavirus than other countries
+\end{quote}
+\begin{quote}
+\footnotesize
+“We are currently using only around 20% of our testing capacity.” Wisconsin is weeks from using anywhere near the listed coronavirus testing capacity
+\end{quote}
+\begin{quote}
+\footnotesize
+“Some states are only getting 50 tests per day, and the Utah Jazz got 58.” How the Utah Jazz got 58 coronavirus tests when US testing is sluggish
+\end{quote}
+\begin{quote}
+\footnotesize
+Says "in Oregon only 41 percent of adults have ever been tested" for HIV. Have only 41% of Oregon adults ever been tested for HIV?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I had prostate cancer, five, six years ago. My chance of surviving prostate cancer, and thank God I was cured of it, in the United States, 82%. My chances of surviving prostate cancer in England, only 44% under socialized medicine." Wrong numbers, off point
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{multi-qa-mpnet-base-dot-v1} and not by \textit{all-mpnet-base-v2}.}
+\end{figure}
+

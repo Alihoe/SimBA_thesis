@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\caption{\textbf{Comparison of Verified Claim Retrieval Datasets.} \textit{Lexical overlap}, \textit{sequence matches} and \textit{levenshtein} refer to the lexical similarity and the similarity of string spans and characters of two text sequences. Their computation is explained in detail in \ref{similarity_types}. Two identical string sequences would have a value of 100 in all those categories.}
+\label{table:2_dataset_comparison}
+\begin{tabular}{l|c|c|c|c|c}
+$dataset$ & $\makecell{ct 2020\\tweets}$ & $\makecell{ct 2021\\tweets}$ & $\makecell{ct 2022\\tweets}$ & $\makecell{ct 2021\\political}$ & $\makecell{ct 2022\\political}$ \\
+\# queries & 200 & 202 & 209 & 79 & 65 \\
+\# targets & 10375 & 13825 & 14231 & 19250 & 19250 \\
+avg. query length & 162 & 232 & 242 & 104 & 113 \\
+avg. target length & 149 & 158 & 158 & 184 & 184 \\
+avg. lexical overlap & 21 & 23 & 22 & 16 & 18 \\
+avg. sequence matches & 29 & 22 & 22 & 25 & 26 \\
+avg. levenshtein similarity & 40 & 40 & 39 & 37 & 39 \\
+\end{tabular}
+\end{table}
+

@@ -1,0 +1,224 @@
+\begin{figure}[hbtp!]
+\label{only_all_mp_0}
+\begin{quote}
+\textbf{Query:} And I also, by the way, going back to that, why isn't Germany putting up money?
+\end{quote}
+\begin{quote}
+\textbf{Target:} "Europe and other nations (need to) contribute to Ukraine. Because they’re not doing it. Just the United States. We’re putting up the bulk of the money." Donald Trump said European nations have not put money into Ukraine. They have put in a lot
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"The U.S. has now spent more on reconstructing Afghanistan than was spent on the Marshall Plan and the reconstruction of Europe." Has the U.S. really spent more on Afghanistan than on post-WWII Europe?
+\end{quote}
+\begin{quote}
+\footnotesize
+European allies "pay us $2.5 billion a year to keep our forces there. It would cost us more money to bring the troops home than to keep them in Europe." Do European allies pay U.S. $2.5 billion yearly to keep troops there?
+\end{quote}
+\begin{quote}
+\footnotesize
+We're borrowing money from China and Saudi Arabia "to finance this war" in Iraq. Other countries, too
+\end{quote}
+\begin{quote}
+\footnotesize
+“All of the aid has not arrived” to Ukraine. Is Ukraine really still waiting on US aid? A small amount is still outstanding
+\end{quote}
+\begin{quote}
+\footnotesize
+"We’ve spent $6 trillion" on the wars in the Middle East. Did U.S. spend $6 trillion in Middle East wars?
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_1}
+\begin{quote}
+\textbf{Query:} Why isn't France putting up money?
+\end{quote}
+\begin{quote}
+\textbf{Target:} "Europe and other nations (need to) contribute to Ukraine. Because they’re not doing it. Just the United States. We’re putting up the bulk of the money." Donald Trump said European nations have not put money into Ukraine. They have put in a lot
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+European allies "pay us $2.5 billion a year to keep our forces there. It would cost us more money to bring the troops home than to keep them in Europe." Do European allies pay U.S. $2.5 billion yearly to keep troops there?
+\end{quote}
+\begin{quote}
+\footnotesize
+We're borrowing money from China and Saudi Arabia "to finance this war" in Iraq. Other countries, too
+\end{quote}
+\begin{quote}
+\footnotesize
+Under the Iran nuclear deal, "we give them $150 billion, we get nothing." No, Donald Trump, we are not giving Iran $150 billion for 'nothing'
+\end{quote}
+\begin{quote}
+\footnotesize
+Says in the last 20 years, the French have not "stood by" the United States on foreign policy. Rick Santorum says you can’t “name one time in the last 20 years that the French stood by us with anything”
+\end{quote}
+\begin{quote}
+\footnotesize
+The United States gives $8 million a day to Israel and gives that country a blank check. Billboards question aid to Israel
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_2}
+\begin{quote}
+\textbf{Query:} But I watched Joe Biden with the prosecutor, who a lot of people said was a great prosecutor, and they took him off.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "A lot of people are talking about" the removal of a "very fair prosecutor" in Ukraine. Donald Trump’s boasts about former Ukrainian prosecutor’s fairness ring false
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+Says Mike Pence was arrested. No, Mike Pence wasn’t arrested
+\end{quote}
+\begin{quote}
+\footnotesize
+“Biden campaign director arrested for electoral fraud.” No, a Biden campaign official wasn’t arrested for election fraud in Texas
+\end{quote}
+\begin{quote}
+\footnotesize
+“When asked about court-packing, Biden's staff immediately escorts the camera out.” Trump campaign uses cherry-picked video to attack Biden
+\end{quote}
+\begin{quote}
+\footnotesize
+“President-elect Biden steps down as president-elect.” No, Joe Biden hasn’t stepped down
+\end{quote}
+\begin{quote}
+\footnotesize
+Loretta Lynch, the new nominee for attorney general, "was a member of Bill Clinton's defense team during the 1992 Whitewater corruption probe." Breitbart gets the wrong Loretta Lynch in Whitewater claim
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_3}
+\begin{quote}
+\textbf{Query:} I've been tougher on Russia than any president in history.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"I have been much tougher on Russia than Obama, just look at the facts. Total Fake News!" Has Donald Trump 'been much tougher on Russia' than Barack Obama?
+\end{quote}
+\begin{quote}
+\footnotesize
+"A few months ago when you were asked what's the biggest geopolitical threat facing America, you said Russia." Obama: Romney called Russia our top geopolitical threat
+\end{quote}
+\begin{quote}
+\footnotesize
+"I’ve been on the Armed Services (Committee) for 10 years. No call or meeting w/ Russian ambassador. Ever." Claire McCaskill says she never met with Russian ambassador, past tweets say otherwise
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Romney called Russia our No. 1 enemy. Obama says Romney called Russia our ‘No. 1 enemy’
+\end{quote}
+\begin{quote}
+\footnotesize
+"I spent 18 months putting together the sanctions against Iran so that we could force them to the negotiating table." Hillary Clinton says she helped usher Iran to the negotiating table
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_4}
+\begin{quote}
+\textbf{Query:} The study recently came out showing that in fact it will reduce costs, but for people making between $50 and $75,000 year, their taxes are going to go up about $5,000 because the fact is they’ll pay more in new taxes, 7.4% plus or 5% plus a 4% income tax.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "For people making between $50,000 and $75,000 a year, their taxes are going up about $5,000 because the fact is, they will pay more in new taxes" for Medicare for All. Joe Biden’s claim on Medicare For All tax hikes rests on flaky analysis
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"Americans who get their insurance through the workplace, cost savings could be as much as $3,000 less per employee than if we do nothing." Obama says health reform legislation could reduce costs in employer plans by up to $3,000
+\end{quote}
+\begin{quote}
+\footnotesize
+"If Gov. Romney's plan goes into effect … the average senior would have to pay $460 a year more in tax for their Social Security." Joe Biden says Mitt Romney’s plan will raise taxes on Social Security benefits
+\end{quote}
+\begin{quote}
+\footnotesize
+Measures in Barack Obama's health plan could "lower health care costs for the typical family by $2,500 a year." Savings projection is best case scenario
+\end{quote}
+\begin{quote}
+\footnotesize
+Cap and trade legislation that Zack Space supported "would cost the average household approximately $1,761 per year in increased energy rates." State Sen. Bob Gibbs claims cap and trade as passed by the House will cost families $1,761 a year
+\end{quote}
+\begin{quote}
+\footnotesize
+“(A recent study) said ‘Medicare for All’ will lower health care costs in this country by $450 billion a year and save the lives of 68,000 people who would otherwise have died.” Bernie Sanders embraces new study that lowers ‘Medicare For All’ price tag, but skepticism abounds
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_5}
+\begin{quote}
+\textbf{Query:} Furthermore, I am very proud that today I have a D- voting record from the NRA.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+"Joe Manchin has a ‘D' rating from the NRA." Does Joe Manchin have a D rating from the National Rifle Association?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I'm proud to have had a 100 percent pro-life voting record." He's right on
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have a perfect voting record from organizations like the Veterans of Foreign Wars, the American Legion and all the other veterans service organizations." Not perfect with all the veterans
+\end{quote}
+\begin{quote}
+\footnotesize
+"40% of Americans know someone who has been killed by a gun." Debbie Wasserman Schultz right about far-reaching effects of gun violence
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_all_mp_6}
+\begin{quote}
+\textbf{Query:} Nancy Pelosi was standing in the streets of Chinatown in San Francisco, late a month, more than a month after that saying, “This thing’s totally exaggerated, come to try and build up tourism.” And all of these people-
+\end{quote}
+\begin{quote}
+\textbf{Target:} Says House Speaker Nancy Pelosi deleted a video of her telling people to go to Chinatown. Donald Trump falsely claims Nancy Pelosi deleted video telling people to go to Chinatown
+\end{quote}
+Top 5 targets predicted by \textit{multi-qa-mpnet-base-dot-v1}:
+\begin{quote}
+\footnotesize
+“Pelosi was in (Wuhan) China 6 days after the impeachment HOAX failed.” The ridiculous claim that Pelosi flew to Wuhan, China, after impeachment failed
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Nancy Pelosi said, "Just because someone is here illegally doesn’t mean they broke any of our laws." No source for supposed Pelosi statement about undocumented immigrants
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Nancy Pelosi said, "Building a wall will violate the rights of millions of illegals." ​ Pelosi didn’t say ‘building a wall will violate the rights of millions of illegals’
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Nancy Pelosi “made millions in coronavirus insider trading.” No sign Nancy Pelosi made millions trading on insider coronavirus information
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Nancy Pelosi was "asked to leave a children’s benefit after drunken outburst." No, Nancy Pelosi didn’t get drunk at a children’s benefit in a public park
+\end{quote}
+\caption{Example of true pair only retrieved within the top 5 by \textit{all-mpnet-base-v2} and not by \textit{multi-qa-mpnet-base-dot-v1}.}
+\end{figure}
+

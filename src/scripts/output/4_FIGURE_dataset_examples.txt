@@ -1,0 +1,47 @@
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{Incidence rates of cervical cancer have decreased.}\\
+\textbf{Target:} \textit{OBJECTIVE To describe the efficacy of the Finnish mass screening program for cervical squamous carcinoma and adenocarcinoma, as reflected by changes of incidence and mortality rate. METHODS Cervical cancer incidence and mortality data were obtained from the Finnish Cancer Registry. Data were available from the year 1953, when the registry was established. The nationwide mass screening program in Finland was started in the mid-1960s. A centralized organization administers this program. Women age 30-60 years are notified for screening every 5 years. RESULTS The mean incidence of cervical carcinoma in the early 1960s was 15.4 per 10(5) woman-years. In 1991, it was only 2.7 per 10(5) woman-years. The mortality rate has decreased in the same proportion since the mass screening program. In the early 1960s, the mortality was 6.6 and in 1991 1.4 per 10(5) woman-years. However, the decrease of the incidence is seen almost exclusively in squamous cell carcinomas. The mortality caused by adenocarcinoma has decreased in screened birth cohorts, but the incidence rate has remained the same. CONCLUSIONS The Finnish mass screening program has been effective and its continuation is of utmost importance. In the future more attention should be given to glandular cell atypias in cervical smears. Thus, it might be possible to decrease the incidence of cervical adenocarcinoma.}\\
+\end{quote}
+\caption{Example of true pair in \textit{SciFact}.
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{What’s Driving America’s Obesity Problem?}\\
+\textbf{Target:} \textit{Summary Weight loss resulting from an exercise intervention tends to be lower than predicted. Modest weight loss can arise from an increase in energy intake, physiological reductions in resting energy expenditure, an increase in lean tissue or a decrease in non-exercise activity. Lower than expected, weight loss could also arise from weak and invalidated assumptions within predictive models. To investigate these causes, we systematically reviewed studies that monitored compliance to exercise prescriptions and measured exercise-induced change in body composition. Changed body energy stores were calculated to determine the deficit between total daily energy intake and energy expenditures. This information combined with available measurements was used to critically evaluate explanations for low exercise-induced weight loss. We conclude that the small magnitude of weight loss observed from the majority of evaluated exercise interventions is primarily due to low doses of prescribed exercise energy expenditures compounded by a concomitant increase in caloric intake.}\\
+\end{quote}
+\caption{Example of true pair in \textit{NFCorpus}.
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{Other states would not want to waste resources on a refugee state  The Seychelles are not a particularly rich place. Their main industries are tourism and tuna fishing accounting for 32% of employment, [1] both of which are unfortunately entirely dependent upon the territory of the islands themselves and cannot be moved. The result is that the Seychelles have little to offer those states that might consider giving up territory. The country will therefore have difficulty rebuilding its economy and would likely be a drain upon its host making countries unwilling to take on the commitment.  [1] The World Bank, ‘Seychelles Overview’, October 2013,}\\
+\textbf{Target:} \textit{The cost need not be borne by the state from which they Seychelles is given land; rather it could come from the funds that have been set up to help developing nations adapt to climate change such as the Adaptation Fund and the Green Climate Fund. [1] This would mean the money would be coming from developed countries that can easily afford the costs of helping rebuild the lives of 90,000 people not the country that provides the territory.  [1] ‘Finance’, unfccc.inc, accessed 26/2/2014,}\\
+\end{quote}
+\caption{Example of true pair in \textit{ArguAna}.
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{Active-Metric Learning for Classification of Remotely Sensed Hyperspectral Images}\\
+\textbf{Target:} \textit{A new method for performing a nonlinear form of principal component analysis is proposed. By the use of integral operator kernel functions, one can efficiently compute principal components in high-dimensional feature spaces, related to input space by some nonlinear mapfor instance, the space of all possible five-pixel products in 16 16 images. We give the derivation of the method and present experimental results on polynomial feature extraction for pattern recognition.}\\
+\end{quote}
+\caption{Example of true pair in \textit{SCIDOCS}.
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{Should you keep a copy of all the code you write?}\\
+\textbf{Target:} \textit{Is it ethical to make a copy of my work's source code, for the sole purpose of my own reference? By reference, I mean as reference where I can refer to it about how I (and my teammates) implemented various design patterns, architecture, etc. It does not contain any trade secret, product, secret algorithm or anything like that. Note that I wrote many parts of the source code, and also the added value from me studying the code will also indirectly benefit the company I am working on.}\\
+\end{quote}
+\caption{Example of true pair in \textit{CQADupStack Programmers}.
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Query:} \textit{What's the correct way of writing a higher education title (MSc or M.Sc.)}\\
+\textbf{Target:} \textit{Question pretty self-explanatory. Should the abbreviation of the Latin term _philosophiae doctor_ be written as **PhD** (no periods) or **Ph.D.** (with periods)?}\\
+\end{quote}
+\caption{Example of true pair in \textit{CQADupStack English}.
+\end{figure}

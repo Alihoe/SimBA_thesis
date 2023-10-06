@@ -1,0 +1,17 @@
+\begin{table}[!htbp]
+\caption{Scores of Sentence Encoders per Dataset.}
+\label{table:sentence_encoder_scores}
+\begin{tabular}{l|c|c|c|c|c|c}
+sentence encoder & \makecell{ct 2020\\tweets} & \makecell{ct 2021\\tweets} & \makecell{ct 2022\\tweets} & \makecell{ct 2021\\political} & \makecell{ct 2022\\political} & all \\
+Infersent GloVe & 0.283 & 0.351 & 0.329 & 0.211 & 0.257 & 0.286 \\
+USE & 0.823 & 0.748 & 0.774 & 0.326 & 0.351 & 0.604 \\
+all-mpnet-base-v2 & 0.922 & 0.881 & 0.898 & 0.326 & 0.362 & 0.678 \\
+ multi-qa-mpnet-base-dot-v1 & 0.936 & 0.905 & 0.916 & 0.294 & 0.333 & 0.677 \\
+all-distil-roberta-v1 & 0.935 & 0.832 & 0.905 & 0.285 & 0.336 & 0.659 \\
+UnsupSimCSE & 0.715 & 0.718 & 0.718 & 0.298 & 0.326 & 0.555 \\
+SupSimCSE & 0.883 & 0.818 & 0.814 & 0.306 & 0.335 & 0.631 \\
+ST5 & 0.942 & 0.828 & 0.854 & 0.326 & 0.33 & 0.656 \\
+SGPT & 0.962 & 0.931 & 0.93 & 0.382 & 0.418 & 0.725 \\
+\end{tabular}
+\end{table}
+

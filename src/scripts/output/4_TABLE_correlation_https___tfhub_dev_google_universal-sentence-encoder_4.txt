@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of https://tfhub.dev/google/universal-sentence-encoder/4 with other features.}
+\label{table:ensemble_https://tfhub.dev/google/universal-sentence-encoder/4}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.593 & -0.003 \\
+all-mpnet-base-v2 & 0.743 & 0.116 \\
+multi-qa-mpnet-base-dot-v1 & 0.704 & 0.115 \\
+all-distil-roberta-v1 & 0.787 & 0.098 \\
+Unsup Sim CSE & 0.690 & 0.092 \\
+Sup Sim CSE & 0.778 & 0.091 \\
+ST5 & 0.750 & 0.086 \\
+SGPT & 0.740 & 0.121 \\
+Levenshtein Similarity & 0.454 & 0.026 \\
+Sequence Matching & 0.131 & -0.094 \\
+Similar Words Ratio & 0.555 & 0.061 \\
+NE Similarity & 0.425 & -0.094 \\
+Synonym Similarity & 0.305 & -0.006 \\
+\end{tabular}
+\end{table}
+

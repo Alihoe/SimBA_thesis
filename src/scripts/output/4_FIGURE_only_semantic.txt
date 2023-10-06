@@ -1,0 +1,192 @@
+\begin{figure}[hbtp!]
+\label{only_semantic_0}
+\begin{quote}
+\textbf{Query:} I've been tougher on Russia than any president in history.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "I never said Russia did not meddle in the election." Donald Trump falsely says he never denied Russian meddling
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+Says he could be "the first president in modern history to be outspent." Obama says he could be "the first president in modern history to be outspent"
+\end{quote}
+\begin{quote}
+\footnotesize
+Obama has "racked up more debt than any president in history — over $5 trillion." Jim Renacci says Obama has racked up more debt than any other president
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Barack Obama "has deported more people than any other president in this country's history." Has Barack Obama deported more people than any other president in U.S. history?
+\end{quote}
+\begin{quote}
+\footnotesize
+"More Americans have lost their jobs under Barack Obama than any president in modern history." Mitt Romney tweets that “more Americans have lost their jobs under Barack Obama than any president in modern history”
+\end{quote}
+\begin{quote}
+\footnotesize
+George W. Bush was "the least popular president in modern history." Milbank says Bush was 'least popular president in modern history'
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_semantic_1}
+\begin{quote}
+\textbf{Query:} I don’t think the American people are wrong when they say that what they want is a choice and the choice of Medicare for All who want it, which is affordable for everyone because we make sure that the subsidies are in place, allows you to get that healthcare.
+\end{quote}
+\begin{quote}
+\textbf{Target:} Americans "say that what they want is a choice" to join a single-payer system like Medicare rather than ending private insurance. Refereeing Pete Buttigieg, Elizabeth Warren on public support for Medicare for All
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+Says Kamala Harris said, “The American people aren’t equipped to make these decisions for themselves.” No, Harris didn’t say Americans aren’t equipped to make decisions about the coronavirus
+\end{quote}
+\begin{quote}
+\footnotesize
+"Over 90% of the American people think we have to get assault weapons off the street  — period." Biden exaggerated the percentage of Americans who favor an assault weapons ban
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Cecile Richards recently said there’s room in "her movement" for people who personally believe abortion is wrong. Did Cecile Richards say there's room in 'her movement' for people who think abortion is wrong?
+\end{quote}
+\begin{quote}
+\footnotesize
+“They have 180 million people, families under what he wants to do, which will basically be socialized medicine — you won’t even have a choice — they want to terminate 180 million plans.” Did Trump confuse the public option with Medicare for All?
+\end{quote}
+\begin{quote}
+\footnotesize
+"I know that we’ve been blocked. People come up to me and they say, ‘Sir, I can’t get you — I can’t follow you. They make it impossible.’" Donald Trump claimed Twitter has made it harder for people to follow him. That’s false
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_semantic_2}
+\begin{quote}
+\textbf{Query:} Furthermore, I am very proud that today I have a D- voting record from the NRA.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "No, that’s a mischaracterization of my thinking." Bernie Sanders has a confounding record on gun control. But he was mostly right on debate night.
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+"I'm proud to have had a 100 percent pro-life voting record." He's right on
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Marco Rubio has "the worst voting record there is today." Donald Trump says Marco Rubio has 'worst voting record there is today'
+\end{quote}
+\begin{quote}
+\footnotesize
+"I have a very conservative voting record." Connie Mack says, "I have a very conservative voting record."
+\end{quote}
+\begin{quote}
+\footnotesize
+On the importance of an independent voting record Obama says Brown's voting record is not that of an independent
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_semantic_3}
+\begin{quote}
+\textbf{Query:} And Kim Jong-un didn't want to talk to him.
+\end{quote}
+\begin{quote}
+\textbf{Target:} "The Obama administration was begging for a meeting" with Kim Jong Un. Trump’s claim Obama begged to meet with North Korea’s Kim Jong Un is unproven
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+Says President Donald Trump is "talking about exterminating Latinos." Donald Trump didn't talk about exterminating Latinos
+\end{quote}
+\begin{quote}
+\footnotesize
+"We just don't want to get to be like Louisiana, where you have drive-up daiquiri shops." Are there daiquiri drive-thrus in Louisiana?
+\end{quote}
+\begin{quote}
+\footnotesize
+Chris Christie "has not increased the taxes on anyone." Kim Guadagno claims Chris Christie hasn't raised taxes on anyone
+\end{quote}
+\begin{quote}
+\footnotesize
+Romney used to favor gun control, and said he didn't want to go back to Reagan-Bush. Romney used to support gun control
+\end{quote}
+\begin{quote}
+\footnotesize
+"I want clean air. I want crystal clean water. And we’ve got it. We’ve got the cleanest country in the planet right now." No, the United States isn't the cleanest country
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_semantic_4}
+\begin{quote}
+\textbf{Query:} Joe Biden said I was xenophobic because I put the ban on, and I thought that was a very unfair.
+\end{quote}
+\begin{quote}
+\textbf{Target:} Says Joe Biden has “written a letter of apology” for calling Trump’s travel restrictions from China “xenophobic.” Without evidence, Trump claims Biden sent him apology letter over China travel ban
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+“Suburbs are by and large integrated.” Are the suburbs “by and large integrated,” as Joe Biden said?
+\end{quote}
+\begin{quote}
+\footnotesize
+“‘America is dead’ — Joe Biden actually said this at his Iowa rally.” No, Joe Biden didn’t say America is dead
+\end{quote}
+\begin{quote}
+\footnotesize
+Donald Trump’s letter to Joe Biden said, “You know I won.” We don’t know what Trump’s letter to Biden says
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Joe Biden said, “I don’t know what I’m signing,” while signing a document. It's not clear what Biden said while signing document
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Joe Biden said, “We don’t need any more N***** bigshots.” Biden was quoting a memo during a Senate hearing
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\label{only_semantic_5}
+\begin{quote}
+\textbf{Query:} We were short on ventilators because the cupboards were bare when we took it over.
+\end{quote}
+\begin{quote}
+\textbf{Target:} The Obama administration left Trump with a “stockpile with a cupboard that was bare.” Trump said the Obama admin left him a bare stockpile. Wrong
+\end{quote}
+Top 5 targets predicted by Lexical Feature:
+\begin{quote}
+\footnotesize
+"I took the state of Ohio from an $8 billion hole … to a $2 billion surplus." John Kasich: 'I took the state of Ohio from an $8 billion hole … to a $2 billion surplus'
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Joe Biden took a knee during the national anthem. No, Joe Biden didn’t take a knee during national anthem at Miami event
+\end{quote}
+\begin{quote}
+\footnotesize
+Says Mark Kelly took to space a “Chinese communist banner.” Mark Kelly did not take a Chinese communist banner to space
+\end{quote}
+\begin{quote}
+\footnotesize
+A 1988 exorcism took place in the only house still standing after Hurricane Ike. No, a 1988 exorcism didn’t happen in this house that survived Hurricane Ike
+\end{quote}
+\begin{quote}
+\footnotesize
+"The deficit was on track to top $1 trillion the year I took office." Obama says the deficit was on track to top $1 trillion the year he took office
+\end{quote}
+\caption{Example of true pair not retrieved within the top 5 by the lexical feature.}
+\end{figure}
+

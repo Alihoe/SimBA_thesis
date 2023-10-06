@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of sequence_matching with other features.}
+\label{table:ensemble_sequence_matching}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.106 & 0.111 \\
+USE & 0.305 & 0.306 \\
+all-mpnet-base-v2 & 0.337 & 0.385 \\
+multi-qa-mpnet-base-dot-v1 & 0.353 & 0.333 \\
+all-distil-roberta-v1 & 0.338 & 0.371 \\
+Unsup Sim CSE & 0.299 & 0.296 \\
+Sup Sim CSE & 0.299 & 0.311 \\
+ST5 & 0.249 & 0.244 \\
+SGPT & 0.296 & 0.407 \\
+Levenshtein Similarity & 0.187 & 0.039 \\
+Similar Words Ratio & 0.425 & 0.225 \\
+NE Similarity & 0.705 & 0.077 \\
+Synonym Similarity & 1.000 & 0.072 \\
+\end{tabular}
+\end{table}
+

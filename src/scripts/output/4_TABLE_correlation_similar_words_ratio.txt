@@ -1,0 +1,21 @@
+\begin{table}[h]
+\caption{Correlation of similar_words_ratio with other features.}
+\label{table:ensemble_similar_words_ratio}
+\begin{tabular}{c|c|c}
+$Similarity Feature$ & $Correlation$ & $Improvement$ \\
+Infersent GloVe & 0.285 & 0.021 \\
+USE & 0.555 & 0.160 \\
+all-mpnet-base-v2 & 0.473 & 0.237 \\
+multi-qa-mpnet-base-dot-v1 & 0.498 & 0.217 \\
+all-distil-roberta-v1 & 0.520 & 0.211 \\
+Unsup Sim CSE & 0.496 & 0.178 \\
+Sup Sim CSE & 0.543 & 0.174 \\
+ST5 & 0.509 & 0.149 \\
+SGPT & 0.606 & 0.218 \\
+Levenshtein Similarity & 0.384 & 0.037 \\
+Sequence Matching & 0.245 & -0.077 \\
+NE Similarity & 0.311 & -0.048 \\
+Synonym Similarity & 0.425 & -0.033 \\
+\end{tabular}
+\end{table}
+

@@ -1,0 +1,15 @@
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Input Claim:} \textit{This is your yearly reminder that Christopher Columbus never set foot in North America. At most, Columbus Day is a Bahamian Holiday — Price Blissit (@DeacPB) October 11, 2021}\\
+\textbf{Verified Claim:} \textit{Christopher Columbus was the first European explorer to discover America. A ‘Columbus Day’ Claim Debunked in 1892}\\
+\end{quote}
+\caption{Example of true pair in "ct 2022 2a".}
+\end{figure}
+
+\begin{figure}[hbtp!]
+\begin{quote}
+\textbf{Input Claim:} \textit{Furthermore, I am very proud that today I have a D- voting record from the NRA.}\\
+\textbf{Verified Claim:} \textit{"I have a D-minus voting record from the NRA." Bernie Sanders’ NRA report card: D-minus is most recent grade}\\
+\end{quote}
+\caption{Example of true pair in "ct 2022 2b".}
+\end{figure}
