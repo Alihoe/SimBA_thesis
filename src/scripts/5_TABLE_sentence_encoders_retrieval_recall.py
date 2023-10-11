@@ -112,7 +112,7 @@ def run():
                                  data_name_targets,
                                  data_name,
                                  data_name + "/" + similarity_feature_1 + "+" + similarity_feature_2,
-                                 "braycurtis",
+                                 "cosine",
                                  "50",
                                  '-sentence_embedding_models', similarity_feature_1, similarity_feature_2
                                  ])
@@ -135,7 +135,7 @@ def run():
                                  data_name_targets,
                                  data_name,
                                  data_name + "/" + similarity_feature_1 + "&" + similarity_feature_2,
-                                 "braycurtis",
+                                 "cosine",
                                  "50",
                                  '--union_of_top_k_per_feature',
                                  '-sentence_embedding_models', similarity_feature_1, similarity_feature_2
@@ -165,7 +165,7 @@ def run():
                                  data_name_targets,
                                  data_name,
                                  data_name + "/" + similarity_feature,
-                                 "braycurtis",
+                                 "cosine",
                                  "50",
                                  '-sentence_embedding_models', similarity_feature
                                  ])
@@ -198,7 +198,7 @@ def run():
     for _ in range(len(columns)):
         column_format = column_format + "|c"
 
-    with open(dir_of_file + "/output/3_TABLE_sentence_encoder_retrieval_recall.txt", 'w') as f:
+    with open(dir_of_file + "/output/5_TABLE_sentence_encoder_retrieval_recall.txt", 'w') as f:
         print(scores_df.style.format_index(axis=1, formatter="{}".format).hide(
             axis=0).format(precision=3).to_latex(column_format=column_format, position="!htbp",
                                                  label="table:sentence_encoder_retrieval_recall",

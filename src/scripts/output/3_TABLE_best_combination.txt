@@ -3,63 +3,32 @@
 \label{table:combo}
 \begin{tabular}{l|c|c|c|c|c|c}
 variants & ct 2020 2a & ct 2021 2a & ct 2022 2a & ct 2021 2b & ct 2022 2b & all \\
-USE + all-mpnet-base-v2 & 0.945 & 0.921 & 0.934 & 0.436 & 0.471 & 0.741 \\
-USE + multi-qa-mpnet-base-dot-v1 & 0.944 & 0.907 & 0.933 & 0.426 & 0.456 & 0.733 \\
-USE + all-distilroberta-v1 & 0.934 & 0.886 & 0.929 & 0.454 & 0.475 & 0.736 \\
-USE + ST5 & 0.909 & 0.855 & 0.88 & 0.441 & 0.463 & 0.71 \\
-SGPT + USE & 0.942 & 0.914 & 0.937 & 0.424 & 0.452 & 0.734 \\
-multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.958 & 0.938 & 0.938 & 0.415 & 0.454 & 0.741 \\
-all-distilroberta-v1 + all-mpnet-base-v2 & 0.96 & 0.929 & 0.937 & 0.401 & 0.453 & 0.736 \\
-ST5 + all-mpnet-base-v2 & 0.958 & 0.942 & 0.939 & 0.443 & 0.476 & 0.752 \\
-SGPT + all-mpnet-base-v2 & 0.962 & 0.951 & 0.952 & 0.461 & 0.486 & 0.762 \\
-multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.963 & 0.928 & 0.949 & 0.422 & 0.467 & 0.746 \\
-ST5 + multi-qa-mpnet-base-dot-v1 & 0.965 & 0.932 & 0.938 & 0.432 & 0.476 & 0.749 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 & 0.958 & 0.938 & 0.938 & 0.415 & 0.454 & 0.741 \\
+all-mpnet-base-v2 + all-distilroberta-v1 & 0.96 & 0.929 & 0.937 & 0.401 & 0.453 & 0.736 \\
+all-mpnet-base-v2 + ST5 & 0.958 & 0.942 & 0.939 & 0.443 & 0.476 & 0.752 \\
+all-mpnet-base-v2 + SGPT & 0.962 & 0.951 & 0.952 & 0.461 & 0.486 & 0.762 \\
+all-distilroberta-v1 + multi-qa-mpnet-base-dot-v1 & 0.963 & 0.928 & 0.949 & 0.422 & 0.467 & 0.746 \\
+multi-qa-mpnet-base-dot-v1 + ST5 & 0.965 & 0.932 & 0.938 & 0.432 & 0.476 & 0.749 \\
 SGPT + multi-qa-mpnet-base-dot-v1 & 0.963 & 0.946 & 0.946 & 0.452 & 0.476 & 0.757 \\
-ST5 + all-distilroberta-v1 & 0.958 & 0.893 & 0.943 & 0.429 & 0.463 & 0.737 \\
+all-distilroberta-v1 + ST5 & 0.958 & 0.893 & 0.943 & 0.429 & 0.463 & 0.737 \\
 SGPT + all-distilroberta-v1 & 0.964 & 0.934 & 0.946 & 0.433 & 0.472 & 0.75 \\
 SGPT + ST5 & 0.961 & 0.939 & 0.943 & 0.466 & 0.48 & 0.758 \\
-USE + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.958 & 0.94 & 0.942 & 0.427 & 0.471 & 0.748 \\
-USE + all-distilroberta-v1 + all-mpnet-base-v2 & 0.96 & 0.92 & 0.943 & 0.411 & 0.452 & 0.737 \\
-USE + ST5 + all-mpnet-base-v2 & 0.955 & 0.927 & 0.937 & 0.443 & 0.485 & 0.749 \\
-SGPT + USE + all-mpnet-base-v2 & 0.958 & 0.942 & 0.949 & 0.44 & 0.488 & 0.755 \\
-USE + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.964 & 0.921 & 0.943 & 0.439 & 0.483 & 0.75 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 & 0.96 & 0.915 & 0.934 & 0.464 & 0.486 & 0.752 \\
-SGPT + USE + multi-qa-mpnet-base-dot-v1 & 0.964 & 0.94 & 0.94 & 0.434 & 0.48 & 0.752 \\
-USE + all-distilroberta-v1 + ST5 & 0.954 & 0.899 & 0.931 & 0.449 & 0.469 & 0.74 \\
-SGPT + USE + all-distilroberta-v1 & 0.961 & 0.927 & 0.943 & 0.42 & 0.464 & 0.743 \\
-SGPT + USE + ST5 & 0.959 & 0.924 & 0.943 & 0.439 & 0.472 & 0.747 \\
-multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.963 & 0.937 & 0.943 & 0.403 & 0.453 & 0.74 \\
-ST5 + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.963 & 0.944 & 0.943 & 0.42 & 0.459 & 0.746 \\
-SGPT + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.963 & 0.95 & 0.951 & 0.454 & 0.486 & 0.761 \\
-ST5 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.967 & 0.93 & 0.937 & 0.411 & 0.464 & 0.742 \\
-SGPT + all-distilroberta-v1 + all-mpnet-base-v2 & 0.962 & 0.946 & 0.95 & 0.441 & 0.478 & 0.755 \\
-SGPT + ST5 + all-mpnet-base-v2 & 0.963 & 0.951 & 0.954 & 0.462 & 0.496 & 0.765 \\
-ST5 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.968 & 0.936 & 0.948 & 0.434 & 0.481 & 0.753 \\
-SGPT + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.964 & 0.946 & 0.951 & 0.446 & 0.481 & 0.758 \\
-SGPT + ST5 + multi-qa-mpnet-base-dot-v1 & 0.961 & 0.951 & 0.952 & 0.455 & 0.487 & 0.761 \\
-SGPT + ST5 + all-distilroberta-v1 & 0.966 & 0.943 & 0.95 & 0.446 & 0.487 & 0.758 \\
-USE + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.96 & 0.941 & 0.945 & 0.425 & 0.47 & 0.748 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 + all-mpnet-base-v2 & 0.959 & 0.939 & 0.944 & 0.427 & 0.476 & 0.749 \\
-SGPT + USE + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.958 & 0.948 & 0.943 & 0.437 & 0.484 & 0.754 \\
-USE + all-distilroberta-v1 + ST5 + all-mpnet-base-v2 & 0.963 & 0.929 & 0.943 & 0.41 & 0.452 & 0.739 \\
-SGPT + USE + all-distilroberta-v1 + all-mpnet-base-v2 & 0.964 & 0.94 & 0.947 & 0.428 & 0.473 & 0.75 \\
-SGPT + USE + ST5 + all-mpnet-base-v2 & 0.964 & 0.944 & 0.948 & 0.441 & 0.482 & 0.756 \\
-USE + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + ST5 & 0.967 & 0.929 & 0.945 & 0.44 & 0.48 & 0.752 \\
-SGPT + USE + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.968 & 0.943 & 0.948 & 0.436 & 0.479 & 0.755 \\
-SGPT + USE + multi-qa-mpnet-base-dot-v1 + ST5 & 0.968 & 0.943 & 0.945 & 0.441 & 0.488 & 0.757 \\
-SGPT + USE + all-distilroberta-v1 + ST5 & 0.963 & 0.936 & 0.943 & 0.435 & 0.479 & 0.751 \\
-ST5 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.963 & 0.939 & 0.94 & 0.41 & 0.46 & 0.742 \\
-SGPT + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.965 & 0.95 & 0.947 & 0.439 & 0.476 & 0.755 \\
-SGPT + ST5 + multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.963 & 0.952 & 0.951 & 0.45 & 0.489 & 0.761 \\
-SGPT + ST5 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.967 & 0.949 & 0.95 & 0.438 & 0.477 & 0.756 \\
-SGPT + ST5 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.969 & 0.944 & 0.951 & 0.453 & 0.489 & 0.761 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 + all-distilroberta-v1 + all-mpnet-base-v2 & 0.96 & 0.938 & 0.943 & 0.428 & 0.474 & 0.749 \\
-USE + multi-qa-mpnet-base-dot-v1 + SGPT + all-distilroberta-v1 + all-mpnet-base-v2 & 0.965 & 0.945 & 0.944 & 0.436 & 0.481 & 0.754 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 + SGPT + all-mpnet-base-v2 & 0.961 & 0.945 & 0.944 & 0.444 & 0.487 & 0.756 \\
-USE + ST5 + SGPT + all-distilroberta-v1 + all-mpnet-base-v2 & 0.967 & 0.942 & 0.944 & 0.435 & 0.479 & 0.753 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 + SGPT + all-distilroberta-v1 & 0.97 & 0.948 & 0.948 & 0.439 & 0.479 & 0.757 \\
-multi-qa-mpnet-base-dot-v1 + ST5 + SGPT + all-distilroberta-v1 + all-mpnet-base-v2 & 0.965 & 0.95 & 0.947 & 0.442 & 0.481 & 0.757 \\
-USE + multi-qa-mpnet-base-dot-v1 + ST5 + SGPT + all-distilroberta-v1 + all-mpnet-base-v2 & 0.963 & 0.942 & 0.943 & 0.434 & 0.481 & 0.753 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.963 & 0.937 & 0.943 & 0.403 & 0.453 & 0.74 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + ST5 & 0.963 & 0.944 & 0.943 & 0.42 & 0.459 & 0.746 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + SGPT & 0.963 & 0.95 & 0.951 & 0.454 & 0.486 & 0.761 \\
+all-mpnet-base-v2 + all-distilroberta-v1 + ST5 & 0.967 & 0.93 & 0.937 & 0.411 & 0.464 & 0.742 \\
+all-mpnet-base-v2 + all-distilroberta-v1 + SGPT & 0.962 & 0.946 & 0.95 & 0.441 & 0.478 & 0.755 \\
+all-mpnet-base-v2 + ST5 + SGPT & 0.963 & 0.951 & 0.954 & 0.462 & 0.496 & 0.765 \\
+all-distilroberta-v1 + multi-qa-mpnet-base-dot-v1 + ST5 & 0.968 & 0.936 & 0.948 & 0.434 & 0.481 & 0.753 \\
+all-distilroberta-v1 + multi-qa-mpnet-base-dot-v1 + SGPT & 0.964 & 0.946 & 0.951 & 0.446 & 0.481 & 0.758 \\
+SGPT + multi-qa-mpnet-base-dot-v1 + ST5 & 0.961 & 0.951 & 0.952 & 0.455 & 0.487 & 0.761 \\
+SGPT + all-distilroberta-v1 + ST5 & 0.966 & 0.943 & 0.95 & 0.446 & 0.487 & 0.758 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + ST5 & 0.963 & 0.939 & 0.94 & 0.41 & 0.46 & 0.742 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 + SGPT & 0.965 & 0.95 & 0.947 & 0.439 & 0.476 & 0.755 \\
+all-mpnet-base-v2 + multi-qa-mpnet-base-dot-v1 + ST5 + SGPT & 0.963 & 0.952 & 0.951 & 0.45 & 0.489 & 0.761 \\
+all-mpnet-base-v2 + all-distilroberta-v1 + ST5 + SGPT & 0.967 & 0.949 & 0.95 & 0.438 & 0.477 & 0.756 \\
+all-distilroberta-v1 + multi-qa-mpnet-base-dot-v1 + ST5 + SGPT & 0.969 & 0.944 & 0.951 & 0.453 & 0.489 & 0.761 \\
+all-mpnet-base-v2 + ST5 + SGPT + all-distilroberta-v1 + multi-qa-mpnet-base-dot-v1 & 0.965 & 0.95 & 0.947 & 0.442 & 0.481 & 0.757 \\
 \end{tabular}
 \end{table}
 

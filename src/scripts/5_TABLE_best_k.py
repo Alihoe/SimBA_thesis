@@ -56,7 +56,7 @@ def run():
                              data_name_targets,
                              data_name,
                              data_name,
-                             "braycurtis",
+                             "cosine",
                               str(k),
                              '-sentence_embedding_models', "princeton-nlp/sup-simcse-roberta-large",
                              "multi-qa-mpnet-base-dot-v1",
@@ -69,11 +69,11 @@ def run():
                              data_name,
                              data_name,
                              data_name,
-                             "braycurtis",
+                             "cosine",
                              "50",
                              '-sentence_embedding_models', "all-mpnet-base-v2",
                              "sentence-transformers/sentence-t5-base",
-                             "princeton-nlp/unsup-simcse-roberta-large",
+                             "Muennighoff/SGPT-5.8B-weightedmean-msmarco-specb-bitfit",
                              '-lexical_similarity_measures', "similar_words_ratio"
                              ])
 
@@ -98,7 +98,7 @@ def run():
     for _ in range(len(columns)):
         column_format = column_format + "|c"
 
-    with open(dir_of_file + "/output/3_TABLE_best_k.txt", 'w') as f:
+    with open(dir_of_file + "/output/5_TABLE_best_k.txt", 'w') as f:
         print(scores_df.style.format_index(axis=1, formatter="{}".format).hide(
             axis=0).format(precision=3).to_latex(column_format=column_format, position="!htbp",
                                                  label="table:k",

@@ -28,14 +28,14 @@ def run():
                "all"]
 
 
-    features = ["https://tfhub.dev/google/universal-sentence-encoder/4",
+    features = [#"https://tfhub.dev/google/universal-sentence-encoder/4",
                 "all-mpnet-base-v2",
                 "multi-qa-mpnet-base-dot-v1",
                 "all-distilroberta-v1",
                 "sentence-transformers/sentence-t5-base",
                 "Muennighoff/SGPT-5.8B-weightedmean-msmarco-specb-bitfit"]
 
-    names = {"https://tfhub.dev/google/universal-sentence-encoder/4": "USE",
+    names = {#"https://tfhub.dev/google/universal-sentence-encoder/4": "USE",
              "all-mpnet-base-v2": "all-mpnet-base-v2",
             "multi-qa-mpnet-base-dot-v1": "multi-qa-mpnet-base-dot-v1",
              "all-distilroberta-v1": "all-distilroberta-v1",

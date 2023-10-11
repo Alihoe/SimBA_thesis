@@ -1,0 +1,89 @@
+\begin{table}[!htbp]
+\caption{Recall after Using Sentence Encoders for Retrieval.}
+\label{table:sentence_encoder_retrieval_recall}
+\begin{tabular}{l|c|c|c|c|c|c}
+sentence encoder & ct 2020 2a & ct 2021 2a & ct 2022 2a & ct 2021 2b & ct 2022 2b & all \\
+InferSent & 0.505 & 0.594 & 0.498 & 0.32 & 0.361 & 0.456 \\
+USE & 0.955 & 0.95 & 0.928 & 0.544 & 0.614 & 0.798 \\
+all-mpnet-base-v2 & 0.99 & 0.985 & 0.962 & 0.466 & 0.53 & 0.787 \\
+multi-qa-mpnet-base-dot-v1 & 0.985 & 0.99 & 0.976 & 0.476 & 0.53 & 0.791 \\
+all-distilroberta-v1 & 0.99 & 0.995 & 0.967 & 0.515 & 0.59 & 0.811 \\
+UnsupSimCSE & 0.91 & 0.931 & 0.895 & 0.544 & 0.602 & 0.776 \\
+SupSimCSE & 0.98 & 0.99 & 0.952 & 0.553 & 0.602 & 0.815 \\
+ST5 & 0.985 & 0.99 & 0.962 & 0.515 & 0.566 & 0.804 \\
+SGPT & 0.98 & 0.995 & 0.971 & 0.592 & 0.687 & 0.845 \\
+avg.: USE + InferSent & 0.935 & 0.926 & 0.9 & 0.524 & 0.59 & 0.775 \\
+union: USE + InferSent & 0.96 & 0.955 & 0.933 & 0.544 & 0.614 & 0.801 \\
+avg.: all-mpnet-base-v2 + InferSent & 0.985 & 0.985 & 0.967 & 0.466 & 0.518 & 0.784 \\
+union: all-mpnet-base-v2 + InferSent & 0.995 & 0.985 & 0.962 & 0.495 & 0.566 & 0.801 \\
+avg.: multi-qa-mpnet-base-dot-v1 + InferSent & 0.98 & 0.99 & 0.967 & 0.515 & 0.578 & 0.806 \\
+union: multi-qa-mpnet-base-dot-v1 + InferSent & 0.99 & 0.99 & 0.976 & 0.505 & 0.566 & 0.805 \\
+avg.: all-distilroberta-v1 + InferSent & 0.99 & 0.985 & 0.957 & 0.515 & 0.59 & 0.807 \\
+union: all-distilroberta-v1 + InferSent & 0.99 & 0.995 & 0.967 & 0.534 & 0.614 & 0.82 \\
+avg.: UnsupSimCSE + InferSent & 0.925 & 0.926 & 0.9 & 0.524 & 0.59 & 0.773 \\
+union: UnsupSimCSE + InferSent & 0.93 & 0.946 & 0.909 & 0.553 & 0.614 & 0.79 \\
+avg.: SupSimCSE + InferSent & 0.94 & 0.941 & 0.909 & 0.495 & 0.554 & 0.768 \\
+union: SupSimCSE + InferSent & 0.985 & 0.99 & 0.952 & 0.563 & 0.614 & 0.821 \\
+avg.: ST5 + InferSent & 0.89 & 0.861 & 0.785 & 0.417 & 0.47 & 0.685 \\
+union: ST5 + InferSent & 0.985 & 0.99 & 0.962 & 0.515 & 0.566 & 0.804 \\
+avg.: SGPT + InferSent & 0.985 & 0.99 & 0.971 & 0.553 & 0.627 & 0.825 \\
+union: SGPT + InferSent & 0.985 & 0.995 & 0.971 & 0.592 & 0.687 & 0.846 \\
+avg.: USE + all-mpnet-base-v2 & 0.995 & 0.99 & 0.976 & 0.573 & 0.639 & 0.835 \\
+union: USE + all-mpnet-base-v2 & 0.995 & 0.99 & 0.976 & 0.573 & 0.639 & 0.835 \\
+avg.: multi-qa-mpnet-base-dot-v1 + USE & 0.995 & 0.99 & 0.981 & 0.583 & 0.651 & 0.84 \\
+union: multi-qa-mpnet-base-dot-v1 + USE & 0.99 & 0.99 & 0.986 & 0.592 & 0.663 & 0.844 \\
+avg.: USE + all-distilroberta-v1 & 0.99 & 0.995 & 0.976 & 0.563 & 0.627 & 0.83 \\
+union: USE + all-distilroberta-v1 & 0.99 & 0.995 & 0.976 & 0.602 & 0.675 & 0.848 \\
+avg.: UnsupSimCSE + USE & 0.98 & 0.975 & 0.957 & 0.592 & 0.675 & 0.836 \\
+union: UnsupSimCSE + USE & 0.975 & 0.98 & 0.962 & 0.631 & 0.687 & 0.847 \\
+avg.: SupSimCSE + USE & 0.975 & 0.97 & 0.981 & 0.592 & 0.687 & 0.841 \\
+union: SupSimCSE + USE & 0.985 & 0.99 & 0.976 & 0.631 & 0.699 & 0.856 \\
+avg.: ST5 + USE & 0.98 & 0.96 & 0.962 & 0.563 & 0.639 & 0.821 \\
+union: ST5 + USE & 0.99 & 0.995 & 0.986 & 0.592 & 0.663 & 0.845 \\
+avg.: USE + SGPT & 0.99 & 0.99 & 0.99 & 0.602 & 0.675 & 0.849 \\
+union: USE + SGPT & 0.985 & 0.995 & 0.981 & 0.631 & 0.711 & 0.861 \\
+avg.: multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.99 & 0.985 & 0.981 & 0.466 & 0.53 & 0.79 \\
+union: multi-qa-mpnet-base-dot-v1 + all-mpnet-base-v2 & 0.99 & 0.99 & 0.981 & 0.505 & 0.566 & 0.806 \\
+avg.: all-distilroberta-v1 + all-mpnet-base-v2 & 0.99 & 0.995 & 0.967 & 0.505 & 0.578 & 0.807 \\
+union: all-distilroberta-v1 + all-mpnet-base-v2 & 0.995 & 0.995 & 0.971 & 0.544 & 0.627 & 0.826 \\
+avg.: UnsupSimCSE + all-mpnet-base-v2 & 0.99 & 0.99 & 0.976 & 0.602 & 0.687 & 0.849 \\
+union: UnsupSimCSE + all-mpnet-base-v2 & 0.99 & 0.99 & 0.967 & 0.602 & 0.663 & 0.842 \\
+avg.: SupSimCSE + all-mpnet-base-v2 & 0.99 & 0.995 & 0.986 & 0.573 & 0.639 & 0.837 \\
+union: SupSimCSE + all-mpnet-base-v2 & 0.99 & 0.995 & 0.976 & 0.612 & 0.663 & 0.847 \\
+avg.: ST5 + all-mpnet-base-v2 & 0.985 & 0.99 & 0.986 & 0.505 & 0.566 & 0.806 \\
+union: ST5 + all-mpnet-base-v2 & 0.995 & 0.995 & 0.986 & 0.544 & 0.59 & 0.822 \\
+avg.: SGPT + all-mpnet-base-v2 & 0.985 & 0.995 & 0.986 & 0.544 & 0.614 & 0.825 \\
+union: SGPT + all-mpnet-base-v2 & 0.99 & 0.995 & 0.986 & 0.602 & 0.687 & 0.852 \\
+avg.: multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.995 & 0.995 & 0.981 & 0.553 & 0.59 & 0.823 \\
+union: multi-qa-mpnet-base-dot-v1 + all-distilroberta-v1 & 0.99 & 0.995 & 0.981 & 0.544 & 0.614 & 0.825 \\
+avg.: multi-qa-mpnet-base-dot-v1 + UnsupSimCSE & 0.985 & 0.995 & 0.976 & 0.621 & 0.699 & 0.855 \\
+union: multi-qa-mpnet-base-dot-v1 + UnsupSimCSE & 0.985 & 0.995 & 0.981 & 0.602 & 0.663 & 0.845 \\
+avg.: SupSimCSE + multi-qa-mpnet-base-dot-v1 & 0.995 & 0.99 & 0.981 & 0.592 & 0.639 & 0.839 \\
+union: SupSimCSE + multi-qa-mpnet-base-dot-v1 & 0.985 & 0.995 & 0.981 & 0.621 & 0.675 & 0.851 \\
+avg.: ST5 + multi-qa-mpnet-base-dot-v1 & 0.99 & 0.99 & 0.981 & 0.505 & 0.542 & 0.802 \\
+union: ST5 + multi-qa-mpnet-base-dot-v1 & 0.99 & 1.0 & 0.995 & 0.563 & 0.614 & 0.832 \\
+avg.: multi-qa-mpnet-base-dot-v1 + SGPT & 0.99 & 0.99 & 0.981 & 0.583 & 0.663 & 0.841 \\
+union: multi-qa-mpnet-base-dot-v1 + SGPT & 0.985 & 0.995 & 0.981 & 0.612 & 0.711 & 0.857 \\
+avg.: UnsupSimCSE + all-distilroberta-v1 & 0.995 & 0.995 & 0.971 & 0.602 & 0.687 & 0.85 \\
+union: UnsupSimCSE + all-distilroberta-v1 & 0.99 & 0.995 & 0.976 & 0.641 & 0.711 & 0.863 \\
+avg.: SupSimCSE + all-distilroberta-v1 & 0.99 & 0.995 & 0.986 & 0.583 & 0.639 & 0.839 \\
+union: SupSimCSE + all-distilroberta-v1 & 0.99 & 0.995 & 0.981 & 0.641 & 0.699 & 0.861 \\
+avg.: ST5 + all-distilroberta-v1 & 0.99 & 0.995 & 0.976 & 0.553 & 0.614 & 0.826 \\
+union: ST5 + all-distilroberta-v1 & 0.99 & 1.0 & 0.986 & 0.612 & 0.675 & 0.853 \\
+avg.: all-distilroberta-v1 + SGPT & 0.99 & 0.995 & 0.986 & 0.621 & 0.675 & 0.853 \\
+union: all-distilroberta-v1 + SGPT & 0.99 & 0.995 & 0.981 & 0.621 & 0.711 & 0.86 \\
+avg.: SupSimCSE + UnsupSimCSE & 0.97 & 0.965 & 0.947 & 0.573 & 0.639 & 0.819 \\
+union: SupSimCSE + UnsupSimCSE & 0.98 & 0.99 & 0.962 & 0.592 & 0.639 & 0.833 \\
+avg.: ST5 + UnsupSimCSE & 0.96 & 0.975 & 0.943 & 0.563 & 0.627 & 0.814 \\
+union: ST5 + UnsupSimCSE & 0.985 & 0.99 & 0.981 & 0.602 & 0.651 & 0.842 \\
+avg.: UnsupSimCSE + SGPT & 0.98 & 0.995 & 0.976 & 0.65 & 0.735 & 0.867 \\
+union: UnsupSimCSE + SGPT & 0.98 & 0.995 & 0.981 & 0.67 & 0.759 & 0.877 \\
+avg.: ST5 + SupSimCSE & 0.99 & 0.99 & 0.976 & 0.563 & 0.614 & 0.827 \\
+union: ST5 + SupSimCSE & 0.99 & 1.0 & 0.986 & 0.592 & 0.651 & 0.844 \\
+avg.: SupSimCSE + SGPT & 0.99 & 0.995 & 0.986 & 0.65 & 0.711 & 0.866 \\
+union: SupSimCSE + SGPT & 0.98 & 0.995 & 0.986 & 0.66 & 0.735 & 0.871 \\
+avg.: ST5 + SGPT & 0.99 & 0.995 & 0.986 & 0.592 & 0.687 & 0.85 \\
+union: ST5 + SGPT & 0.99 & 1.0 & 0.995 & 0.621 & 0.699 & 0.861 \\
+\end{tabular}
+\end{table}
+
